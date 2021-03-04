@@ -1,0 +1,546 @@
+{
+  "fdm_extract": {
+    "validCount": 5,
+    "data": [
+      {
+        "program": [
+          {
+            "segment": "3",
+            "programId": "PG99997",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "TA Tuition Benefits-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          },
+          {
+            "segment": "3",
+            "programId": "PG99994",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "RA Tuition Benefits-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          },
+          {
+            "segment": "3",
+            "programId": "PG02665",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "FA-FWS Community Service Learning Program-RST",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00010",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "FA-FWS America Reads Off Campus-AGY",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00009",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "FA-Work Study Outside-AGY",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00007",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "FA-Federal Workstudy Grant-RST",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00006",
+            "cc_refId": "CC0001",
+            "cc_id": "CC0001",
+            "cc_name": "FA-Federal Work Study Grant",
+            "prg_name": "FA-FWS America Reads-RST",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH292"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "segment": "3",
+            "programId": "PG00142",
+            "cc_refId": "CC0019",
+            "cc_id": "CC0019",
+            "cc_name": "BDI-Molecular Biomarkers",
+            "prg_name": "BDI-Operations-RID",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG99997",
+            "cc_refId": "CC0019",
+            "cc_id": "CC0019",
+            "cc_name": "BDI-Molecular Biomarkers",
+            "prg_name": "TA Tuition Benefits-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00030",
+            "cc_refId": "CC0019",
+            "cc_id": "CC0019",
+            "cc_name": "BDI-Molecular Biomarkers",
+            "prg_name": "BDI-Administration Research Administration Team-TRIF",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00141",
+            "cc_refId": "CC0019",
+            "cc_id": "CC0019",
+            "cc_name": "BDI-Molecular Biomarkers",
+            "prg_name": "BDI-Operations-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG99994",
+            "cc_refId": "CC0019",
+            "cc_id": "CC0019",
+            "cc_name": "BDI-Molecular Biomarkers",
+            "prg_name": "RA Tuition Benefits-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00140",
+            "cc_refId": "CC0019",
+            "cc_id": "CC0019",
+            "cc_name": "BDI-Molecular Biomarkers",
+            "prg_name": "BDI-Operations-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "segment": "3",
+            "programId": "PG99997",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "TA Tuition Benefits-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07868",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-BSS Carlo Maley Iseec-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG99994",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "RA Tuition Benefits-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PGK0091",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI - Rizal Hariadi - IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG13102",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Residual: MDB Nicholas Stephanopoulos-FPR",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07859",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Nicholas Stephanopoulos Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07858",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Nicholas Stephanopoulos Startup-GOT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07857",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Jeremy Mills Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07856",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Jeremy Mills Startup-GOT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07855",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Rizal Hariadi Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07854",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Rizal Hariadi Startup-GOT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG06503",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Hao Yan Faculty Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07853",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Alexander Green Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07852",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Alexander Green Startup-GOT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07851",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Confocal Microscopy-RCHG",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00107",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Jeremy Mills-IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PGK0299",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI - Petr Sulc - IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00030",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Administration Research Administration Team-TRIF",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG04434",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "NSC-Alexander Green-IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00153",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-PSIF-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG10638",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Catalyst Award Yung Chang-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG04880",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Nicholas Stephanopoulos-IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG13154",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Residual: MDB Hao-FPR",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00074",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-DCU ASU Collaboration-RID",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG08972",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Petr Sulc Faculty Startup-GOT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG04673",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Hao Yan-IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG08971",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Petr Sulc Faculty Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00071",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-CMDB Yan Startup-TRIF",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG13639",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Alex Green RA Support Startup-NLT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG05127",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-Yan Liu-IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00069",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-CLAS Biomimicry-RID",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00133",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-MDB Research Royalties-LCL",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG00197",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "NSC-Yung Chang-IIA",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          },
+          {
+            "segment": "3",
+            "programId": "PG07872",
+            "cc_refId": "CC0020",
+            "cc_id": "CC0020",
+            "cc_name": "BDI-Molecular Design and Biomimetics",
+            "prg_name": "BDI-SIF Biomimetic and Bioinspired Engineering Center-GOT",
+            "keySegment": "2",
+            "check": false,
+            "keyValue": "CCH091"
+          }
+        ]
+      },
+      {
+        "program": [
+          
+        ]
+      },
+      {
+        "program": [
+          
+        ]
+      }
+    ]
+  }
+}

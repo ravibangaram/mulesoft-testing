@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+
+    <error-handler name="errorHandlingChoice_Exception_Strategy">
+        <on-error-continue doc:name="Catch Exception Strategy" when="exception.causedBy(org.mule.extension.validation.api.ValidationException)">
+            <set-variable variableName="specific" value="#[if (exception.cause != null)   exception.cause else   exception]" doc:name="Variable" />
+            <logger message="#[&quot;Transaction ID - $(vars.asuTransactionid) - Specific Exception: $(payload)&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.error" doc:name="Logger" />
+        </on-error-continue>
+        <on-error-continue doc:name="Catch">
+            <set-variable variableName="generic" value="#[if (exception.cause != null)   exception.cause else   exception]" doc:name="Variable" />
+            <logger message="#[&quot;Transaction ID - $(vars.asuTransactionid) - Generic Exception: $(payload)&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.error" doc:name="Logger" />
+        </on-error-continue>
+    </error-handler>
+
+    <error-handler name="WorkdayServiceOperationCallExceptions">
+        <on-error-continue>
+            <set-variable variableName="httpException" value="#[mel:org.mule.util.ExceptionUtils.getRootCauseMessage(exception)]" doc:name="Variable">
+                <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                <!--    For more information refer to:-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+                <!--    For more information refer to:-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            </set-variable>
+            <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) httpStatus=$(vars.compatibility_outboundProperties.'http.status') message='Exception encountered: on service operation:' $(sessionVars.operation) httpException='$(vars.httpException)' exception='$(mel:org.mule.util.ExceptionUtils.getRootCauseMessage(exception))'&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.error" doc:name="Logger">
+                <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                <!--    For more information refer to:-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+                <!--    For more information refer to:-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            </logger>
+        </on-error-continue>
+    </error-handler>
+
+</mule>

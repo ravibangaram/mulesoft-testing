@@ -1,0 +1,241 @@
+{
+  "fdm_extract": {
+    "validCount": 26,
+    "data": [
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "Cheng-C6246 (inactive)"
+        },
+        "id": "Cheng-C6246 E02868",
+        "name": "Cheng-C6246 E02868",
+        "status": "Y"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00001 Abbas - J1415"
+        },
+        "id": "Abbas - J1415 E00001",
+        "name": "Abbas - J1415 E00001",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00002 Abbaszadegan - M8623"
+        },
+        "id": "Abbaszadegan - M8623 E00002",
+        "name": "Abbaszadegan - M8623 E00002",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00003 Abbott - D4086"
+        },
+        "id": "Abbott - D4086 E00003",
+        "name": "Abbott - D4086 E00003",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00004 Abbott - J6968"
+        },
+        "id": "Abbott - J6968 E00004",
+        "name": "Abbott - J6968 E00004",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00005 Abbott - K1679"
+        },
+        "id": "Abbott - K1679 E00005",
+        "name": "Abbott - K1679 E00005",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00006 Aberle - J8480"
+        },
+        "id": "Aberle - J8480 E00006",
+        "name": "Aberle - J8480 E00006",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00007 Abry - T4336"
+        },
+        "id": "Abry - T4336 E00007",
+        "name": "Abry - T4336 E00007",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00008 Adame - B6836"
+        },
+        "id": "Adame - B6836 E00008",
+        "name": "Adame - B6836 E00008",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00009 Adams - J8310"
+        },
+        "id": "Adams - J8310 E00009",
+        "name": "Adams - J8310 E00009",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00010 Adams - J8404"
+        },
+        "id": "Adams - J8404 E00010",
+        "name": "Adams - J8404 E00010",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00011 Adams - K0887"
+        },
+        "id": "Adams - K0887 E00011",
+        "name": "Adams - K0887 E00011",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00012 Adams - M2564"
+        },
+        "id": "Adams - M2564 E00012",
+        "name": "Adams - M2564 E00012",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00013 Adamson - E3063"
+        },
+        "id": "Adamson - E3063 E00013",
+        "name": "Adamson - E3063 E00013",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00014 Adamson - J4264"
+        },
+        "id": "Adamson - J4264 E00014",
+        "name": "Adamson - J4264 E00014",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00015 Adhikari - A0765"
+        },
+        "id": "Adhikari - A0765 E00015",
+        "name": "Adhikari - A0765 E00015",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00016 Adrian - R9415"
+        },
+        "id": "Adrian - R9415 E00016",
+        "name": "Adrian - R9415 E00016",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00017 Agadjanian - V4354"
+        },
+        "id": "Agadjanian - V4354 E00017",
+        "name": "Agadjanian - V4354 E00017",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00018 Aggarwal - R1543"
+        },
+        "id": "Aggarwal - R1543 E00018",
+        "name": "Aggarwal - R1543 E00018",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00019 Agusdinata - B2136"
+        },
+        "id": "Agusdinata - B2136 E00019",
+        "name": "Agusdinata - B2136 E00019",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00020 Ahn - G8598"
+        },
+        "id": "Ahn - G8598 E00020",
+        "name": "Ahn - G8598 E00020",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00021 Aiken - L9356"
+        },
+        "id": "Aiken - L9356 E00021",
+        "name": "Aiken - L9356 E00021",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00022 Ainsworth - B9222"
+        },
+        "id": "Ainsworth - B9222 E00022",
+        "name": "Ainsworth - B9222 E00022",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00023 Aktipis - C9973"
+        },
+        "id": "Aktipis - C9973 E00023",
+        "name": "Aktipis - C9973 E00023",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00024 Alarcon - R9548"
+        },
+        "id": "Alarcon - R9548 E00024",
+        "name": "Alarcon - R9548 E00024",
+        "status": "N"
+      },
+      {
+        "segment": "12",
+        "org_refId": {
+          "refId": "E00025 Alford - E2805"
+        },
+        "id": "Alford - E2805 E00025",
+        "name": "Alford - E2805 E00025",
+        "status": "N"
+      }
+    ]
+  }
+}

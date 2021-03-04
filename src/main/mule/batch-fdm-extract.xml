@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:batch="http://www.mulesoft.org/schema/mule/batch" xmlns:compatibility="http://www.mulesoft.org/schema/mule/compatibility" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:os="http://www.mulesoft.org/schema/mule/os" xmlns:sftp="http://www.mulesoft.org/schema/mule/sftp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/sftp http://www.mulesoft.org/schema/mule/sftp/current/mule-sftp.xsd http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd http://www.mulesoft.org/schema/mule/compatibility http://www.mulesoft.org/schema/mule/compatibility/current/mule-compatibility.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+
+    <flow name="Workday_JPM_FDMExtract_Batch">
+        <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='Starting JPM FDM Extract Batch'&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.batch" />
+
+        <flow-ref name="service-list" doc:name="service-list" />
+
+        <batch:job jobName="Workday_JPM_FDMExtract_Batch" maxFailedRecords="-1">
+            <batch:process-records>
+                <batch:step name="Batch_Step2">
+                    <flow-ref name="call-workday-services" doc:name="call-workday-services" />
+                    <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='JPM FDM Extract processing phase completed'&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.batch" />
+                </batch:step>
+                <batch:step name="Batch_Step3" acceptPolicy="ONLY_FAILURES" acceptExpression="#[vars.compatibility_inboundProperties.'http.status' != '200']">
+                    <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='Failed list ' name =$(vars.name)  exception:$(mel:getStepExceptions())&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.batch" doc:name="Logger">
+                        <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                        <!--    For more information refer to:-->
+                        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                        <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                        <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                        <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+                        <!--    For more information refer to:-->
+                        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+                        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                    </logger>
+                    <set-variable variableName="Exception" value="#[mel:String.format(getStepExceptions())]" doc:name="Variable">
+                        <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                        <!--    For more information refer to:-->
+                        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                        <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                        <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                        <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+                        <!--    For more information refer to:-->
+                        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+                        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                    </set-variable>
+                    <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='Exception in failed step='$(vars.Exception)&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.batch" />
+                </batch:step>
+            </batch:process-records>
+            <batch:on-complete>
+                <ee:transform doc:name="Transform Message">
+                    <ee:message>
+                        <ee:set-payload>%dw 2.0
+output application/xml  
+---
+{
+  object: {
+    batchJobInstanceId: payload.batchJobInstanceId,
+    elapsedTimeInMillis: payload.elapsedTimeInMillis,
+    failedOnCompletePhase: payload.failedOnCompletePhase,
+    failedOnInputPhase: payload.failedOnInputPhase,
+    failedOnLoadingPhase: payload.failedOnLoadingPhase,
+    failedRecords: payload.failedRecords,
+    loadedRecords: payload.loadedRecords,
+    processedRecords: payload.processedRecords,
+    successfulRecords: payload.successfulRecords,
+    totalRecords: payload.totalRecords
+  }
+}</ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+                <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='OnComplete JPM FDM Extract output payload='$(payload)&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.batch" doc:name="Logger" />
+                <flow-ref name="header_row" doc:name="header_row" />
+            </batch:on-complete>
+        </batch:job>
+
+    </flow>
+
+    <sub-flow name="header_row">
+        <os:retrieve objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore" />
+        <set-variable variableName="worktagTotalRowCount" value="#[payload]" doc:name="Variable" />
+        <logger message="#[&quot;batchInstanceID='$(vars['batchJobInstanceId'])' Writing header row with Total Row count ='$(vars.worktagTotalRowCount)'&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.file" doc:name="Logger" />
+        <set-variable variableName="serverTime" value="#[mel:server.dateTime.format('MMddyyyyHHmmssSS').substring(0,16)]" doc:name="Variable">
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+        </set-variable>
+        <expression-component doc:name="Expression">
+            <!--Migration ERROR: The migration of 'expression-component' is not supported.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-connectors-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool.adoc#unsupported_connectors-->
+            <![CDATA[flowVars.header0 = 'ASUCOAINT	US63994	COA	1	'+flowVars.serverTime+'	1	'+flowVars.worktagTotalRowCount	+'	Replace';]]>
+        </expression-component>
+        <set-payload value="#[&quot;$(vars.header0)$(mel:System.getProperty('line.separator'))&quot;]" doc:name="Set Payload">
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+            <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+        </set-payload>
+        <choice doc:name="Choice">
+            <when expression="#[vars.server.userName != 'muleesb']">
+                <compatibility:outbound-properties-to-var>
+                    <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                </compatibility:outbound-properties-to-var>
+                <sftp:write config-ref="SFTP" path="#['${file.sftp.location}/' ++ migration::SftpWriteOutputFile::sftpWriteOutputfile(vars, { outputPattern: '${header.file.name}', outputPatternConfig: null})]" doc:name="SFTP" mode="APPEND" />
+                <compatibility:attributes-to-inbound-properties>
+                    <!--Migration WARN: Expressions that query 'inboundProperties' from the message should instead query the message 'attributes'. Remove this component if there are no uses of 'inboundProperties' in expressions or components that rely on 'inboundProperties' (such as 'copy-properties').-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/intro-mule-message#inbound-properties-are-now-attributes-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#inbound_properties-->
+                </compatibility:attributes-to-inbound-properties>
+            </when>
+            <when expression="#[mel:sessionVars.stop == 'false' and payload != empty and server.userName=='muleesb']">
+                <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                <!--    For more information refer to:-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                <compatibility:outbound-properties-to-var>
+                    <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                </compatibility:outbound-properties-to-var>
+                <file:write path="#[migration::FileWriteOutputFile::fileWriteOutputfile(vars, { writeToDirectory: '${file.server.location}', address: null, outputPattern: '${header.file.name}', outputPatternConfig: null})]" config-ref="File1" responseTimeout="10000" doc:name="File" mode="APPEND" />
+                <compatibility:attributes-to-inbound-properties>
+                    <!--Migration WARN: Expressions that query 'inboundProperties' from the message should instead query the message 'attributes'. Remove this component if there are no uses of 'inboundProperties' in expressions or components that rely on 'inboundProperties' (such as 'copy-properties').-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/intro-mule-message#inbound-properties-are-now-attributes-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#inbound_properties-->
+                </compatibility:attributes-to-inbound-properties>
+            </when>
+            <otherwise>
+                <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId'])Stop in service =' $(sessionVars.service)'  and service operation ='$(sessionVars.operation)'&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.file" />
+            </otherwise>
+        </choice>
+    </sub-flow>
+
+</mule>

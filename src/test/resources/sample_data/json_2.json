@@ -1,0 +1,31 @@
+{
+  "fdm_extract": {
+    "validCount": 3,
+    "data": [
+      {
+        "segment": "11",
+        "id": "E00821",
+        "name": "Ju - F5729",
+        "keySegment": "3",
+        "keyValue": "",
+        "status": "0"
+      },
+      {
+        "segment": "11",
+        "id": "E00864",
+        "name": "Kiani - S0618",
+        "keySegment": "3",
+        "keyValue": "",
+        "status": "0"
+      },
+      {
+        "segment": "11",
+        "id": "E00866",
+        "name": "Kiehl - R0261",
+        "keySegment": "3",
+        "keyValue": "",
+        "status": "0"
+      }
+    ]
+  }
+}

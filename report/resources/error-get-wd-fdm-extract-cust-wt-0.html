@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mule Migratiol Assistant Report</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/mulesoft-styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/tsorter.css">
+</head>
+<body>
+    <div class="mulesoft-topbar">
+        <div class="mulesoft-appbar">
+            <div class="muleicon muleicon-logo"></div>
+            <div class="anypoint-brand">Mule Migration Assistant 1.0.0</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 sidemenu">
+        <ul class="sidemenu-back">
+            <li><a href="../summary.html">Summary</a></li>
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <h2 class="text-bold">Issues found on: <span class="text-italic text-normal">get-wd-fdm-extract-cust-wt.xml</span></h2>
+        <h4 class="text-bold">Description: <span class="text-italic text-normal">Custom types defined in Studio 6 are not migrated to Studio 7.</span></h4>
+        <h4 class="text-bold">Documentation: </h4>
+        <hr>
+        <br>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">25</span>&nbsp;
+                    Column: <span class="text-italic text-normal">68</span>
+                </h4>
+                <br>
+                <pre>&lt;ee:transform doc:name=&quot;CR-Department-Report-Roll&quot; metadata:id=&quot;e976a5ee-ff7d-40db-9a99-5f0e2aa4b823&quot;&gt;
+    &lt;ee:message&gt;
+        &lt;ee:set-payload&gt;&lt;![CDATA[%dw 2.0 output application/json ns ns0 urn:com.workday/bsvc --- { &quot;fdm_extract&quot;: { validCount: sizeOf((payload.ns0#&quot;Report_Data&quot;.*ns0#&quot;Report_Entry&quot; map {})), data: payload.ns0#&quot;Report_Data&quot;.*ns0#&quot;Report_Entry&quot; map { segment: &quot;6&quot;, &quot;org_refId&quot;: $.ns0#Organization.*ns0#ID filter $.@ns0#&quot;type&quot; == &quot;Custom_Organization_Reference_ID&quot; map { refId: $ }, id: $.ns0#id, name: $.ns0#name, status: if ($.ns0#Inactive == &quot;0&quot;) &quot;N&quot; else &quot;Y&quot; } filter not $.id == null } }]]&gt;&lt;/ee:set-payload&gt;
+    &lt;/ee:message&gt;
+&lt;/ee:transform&gt;</pre>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">345</span>&nbsp;
+                    Column: <span class="text-italic text-normal">60</span>
+                </h4>
+                <br>
+                <pre>&lt;ee:transform doc:name=&quot;Transform Message&quot; metadata:id=&quot;a1fc0b07-c70b-46ff-8923-28bb819a620e&quot;&gt;
+    &lt;ee:message&gt;
+        &lt;ee:set-payload&gt;&lt;![CDATA[%dw 2.0 output application/csv separator=&quot;\t&quot;, quoteValues=false, header=false, lineSeparator=&quot;\n&quot; --- using (var = 63) ((payload.&quot;fdm_extract&quot;.data default []) map { chartOfAccounts: &quot;FMS COA&quot;, segment: $.segment, value: if ($.id == null) &quot; &quot; else $.id, description: if ($.name == null) &quot; &quot; else $.name replace /([\,\?\&apos;&apos;&apos;&apos;\|])/ with &quot;*&quot;, keySegment: if ($.keySegment == null) &quot; &quot; else $.keySegment, keyValue: if ($.keyValue == null) &quot; &quot; else $.keyValue, addUpdateDelete: &quot;Add&quot;, blankOverride: &quot;0&quot; })]]&gt;&lt;/ee:set-payload&gt;
+    &lt;/ee:message&gt;
+    &lt;ee:variables&gt;
+        &lt;ee:set-variable variableName=&quot;payloadRows&quot;&gt;&lt;![CDATA[%dw 2.0 output application/json --- { validCount: sizeOf((flatten(payload.&quot;fdm_extract&quot;.data) map {})) }]]&gt;&lt;/ee:set-variable&gt;
+    &lt;/ee:variables&gt;
+&lt;/ee:transform&gt;</pre>
+                <hr>
+            </div>
+    </div>
+</body>
+</html>

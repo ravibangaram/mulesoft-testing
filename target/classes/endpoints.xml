@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns:java="http://www.mulesoft.org/schema/mule/java" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:compatibility="http://www.mulesoft.org/schema/mule/compatibility" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:os="http://www.mulesoft.org/schema/mule/os" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd http://www.mulesoft.org/schema/mule/compatibility http://www.mulesoft.org/schema/mule/compatibility/current/mule-compatibility.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+
+    <flow name="endPointsFlow">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/fdmextractJPM" doc:name="HTTP">
+            <http:response statusCode="#[migration::HttpListener::httpListenerResponseSuccessStatusCode(vars)]">
+                <!--Migration WARN: Avoid using an outbound property to determine the status code.-->
+                <!--    For more information refer to:-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                <http:headers>#[migration::HttpListener::httpListenerResponseHeaders(vars)]</http:headers>
+            </http:response>
+            <http:error-response statusCode="#[vars.statusCode default migration::HttpListener::httpListenerResponseErrorStatusCode(vars)]">
+                <!--Migration WARN: Avoid using an outbound property to determine the status code.-->
+                <!--    For more information refer to:-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                <http:headers>#[migration::HttpListener::httpListenerResponseHeaders(vars)]</http:headers>
+            </http:error-response>
+        </http:listener>
+
+        <http:basic-security-filter realm="Invalid user credentials..." securityProviders="SecurityProvider" />
+
+        <ee:transform doc:name="testing vars" doc:id="c0c82039-ad24-4e94-a5d1-d84a0763395c" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+var msg = "Hello"
+var msg2 = (x = "ignore") -> "hello"
+var toUpper = (aString) -> upper(aString)
+var combined = (function, msg="universe") -> function(msg ++ " WORLD")
+---
+[
+   msg: msg,
+   msg2: msg2(),
+   toUpper: toUpper(msg),
+   combined: combined(toUpper, "hello"),
+   combined2: combined(((x) -> lower(x) ++ " Today"), msg)
+]]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<set-payload value="#[payload]" doc:name="checking output" doc:id="b681ed4a-0826-4dc7-8798-0b1048131e47" />
+
+        <logger message="#[&quot;Transaction ID - $(vars.asuTransactionid) - Start of process='$(vars.flowName)' with jobName='$(vars.jobName)'&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.endpoint" doc:name="Logger" />
+
+        <os:store objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore">
+            <os:value><![CDATA[#[0]]]></os:value>
+        </os:store>
+
+        <flow-ref name="Workday_JPM_FDMExtract_Batch" doc:name="Workday_JPM_FDMExtract_Batch" />
+
+        <logger message="#[&quot;Transaction ID - $(vars.asuTransactionid) - End of  process $(vars.flowName) with jobInstanceID : $(payload.result.batchJobInstanceId) and jobName: $(vars.jobName)&quot;]" level="INFO" category="edu.asu.uto.fdmextract.jpm.endpoint" doc:name="Logger" />
+
+        <set-payload value="#['submitProcessName=' ++ 'asu-wdayf2jpm-fdm-extract' ++ ' submitInstanceId=' ++ payload.result.batchJobInstanceId ++ ' submitStatus=SUCCESSFUL' ++ ' server=' ++ server.host ++ ' userName= ' ++ vars.server.userName ++ ' \n']" doc:name="Set Payload" />
+
+        <error-handler ref="errorHandlingChoice_Exception_Strategy" doc:name="Reference Exception Strategy" />
+
+    </flow>
+
+    <flow name="servicePing">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/fdmextractJPM/servicePing" doc:name="HTTP">
+            <http:response statusCode="#[migration::HttpListener::httpListenerResponseSuccessStatusCode(vars)]">
+                <!--Migration WARN: Avoid using an outbound property to determine the status code.-->
+                <!--    For more information refer to:-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                <http:headers>#[migration::HttpListener::httpListenerResponseHeaders(vars)]</http:headers>
+            </http:response>
+            <http:error-response statusCode="#[vars.statusCode default migration::HttpListener::httpListenerResponseErrorStatusCode(vars)]">
+                <!--Migration WARN: Avoid using an outbound property to determine the status code.-->
+                <!--    For more information refer to:-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                <http:headers>#[migration::HttpListener::httpListenerResponseHeaders(vars)]</http:headers>
+            </http:error-response>
+        </http:listener>
+
+        <compatibility:attributes-to-inbound-properties>
+            <!--Migration WARN: Expressions that query 'inboundProperties' from the message should instead query the message 'attributes'. Remove this component if there are no uses of 'inboundProperties' in expressions or components that rely on 'inboundProperties' (such as 'copy-properties').-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/intro-mule-message#inbound-properties-are-now-attributes-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#inbound_properties-->
+        </compatibility:attributes-to-inbound-properties>
+
+        <set-variable variableName="flowName" value="asu-wdayf2jpm-fdm-extract" doc:name="Variable" />
+
+        <ee:transform doc:name="Transform Message">
+            <ee:message>
+                <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+---
+{
+  Response: vars.flowName ++ " service is alive."
+}]]></ee:set-payload>
+            </ee:message>
+        </ee:transform>
+
+        <compatibility:outbound-properties-to-var>
+            <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+        </compatibility:outbound-properties-to-var>
+
+    </flow>
+
+    <flow name="checkJobStatus">
+        <http:listener config-ref="HTTP_Listener_Configuration" path="/fdmextractJPM/checkStatus" doc:name="HTTP">
+            <http:response statusCode="#[migration::HttpListener::httpListenerResponseSuccessStatusCode(vars)]">
+                <!--Migration WARN: Avoid using an outbound property to determine the status code.-->
+                <!--    For more information refer to:-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                <http:headers>#[migration::HttpListener::httpListenerResponseHeaders(vars)]</http:headers>
+            </http:response>
+            <http:error-response statusCode="#[vars.statusCode default migration::HttpListener::httpListenerResponseErrorStatusCode(vars)]">
+                <!--Migration WARN: Avoid using an outbound property to determine the status code.-->
+                <!--    For more information refer to:-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                <http:headers>#[migration::HttpListener::httpListenerResponseHeaders(vars)]</http:headers>
+            </http:error-response>
+        </http:listener>
+		<http:basic-security-filter realm="Invalid user credentials..." securityProviders="SecurityProvider" />
+
+        <set-variable variableName="jobInstanceId" value="#[vars.compatibility_inboundProperties.'http.query.params'.jobInstanceId]" />
+
+        <set-variable variableName="jobName" value="#[vars.compatibility_inboundProperties.'http.query.params'.jobName]" />
+
+        <custom-processor name="Custom_Processor" class="edu.asu.uto.CheckBatchStatus" doc:name="Custom_Processor">
+            <!--Migration ERROR: Element 'custom-processor' which relied on Java no longer exists in Mule 4. Replace its uses with a new Mule 4 feature.-->
+        </custom-processor>
+
+        <set-payload value="#['monitorProcessName=' ++ vars.jobName ++ ' monitorInstanceId=' ++ vars.jobInstanceId ++ ' monitorStatus=' ++ vars.jobStatus ++ ' server=' ++ server.host ++ ' \n']" doc:name="Set Payload" />
+
+        <compatibility:outbound-properties-to-var>
+            <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+        </compatibility:outbound-properties-to-var>
+
+    </flow>
+
+</mule>

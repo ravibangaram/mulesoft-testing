@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mule Migratiol Assistant Report</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/mulesoft-styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/tsorter.css">
+</head>
+<body>
+    <div class="mulesoft-topbar">
+        <div class="mulesoft-appbar">
+            <div class="muleicon muleicon-logo"></div>
+            <div class="anypoint-brand">Mule Migration Assistant 1.0.0</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 sidemenu">
+        <ul class="sidemenu-back">
+            <li><a href="../summary.html">Summary</a></li>
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <h2 class="text-bold">Issues found on: <span class="text-italic text-normal">businesslogic.xml</span></h2>
+        <h4 class="text-bold">Description: <span class="text-italic text-normal">The migration of 'expression-component' is not supported.</span></h4>
+        <h4 class="text-bold">Documentation: </h4>
+            <h4><a href="https://docs.mulesoft.com/mule-runtime/4.3/migration-connectors">https://docs.mulesoft.com/mule-runtime/4.3/migration-connectors</a></h4>
+            <h4><a href="https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool.adoc#unsupported_connectors">https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool.adoc#unsupported_connectors</a></h4>
+        <hr>
+        <br>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">43</span>&nbsp;
+                    Column: <span class="text-italic text-normal">61</span>
+                </h4>
+                <br>
+                <pre>&lt;expression-component doc:name=&quot;Expression&quot;&gt;&lt;![CDATA[flowVars.header = &apos;Chart Of Accounts Segment Value Description Key Segment Key Value Add/Update/Delete Flag Blank Override&apos;; sessionVars.stop = &apos;false&apos;; sessionVars.fileName = &apos;ASU_JPM_Segments&apos;; if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Department_Report_Roll&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Department_Reporting&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_ASU_Audit_Reporting&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy&apos;) {flowVars.service = &apos;Custom_CC&apos;; sessionVars.stop = &apos;true&apos;;} else {if (flowVars.operation == &apos;CRINT120_FDMExtract_Program&apos;) {flowVars.service = &apos;Custom&apos;; sessionVars.stop = &apos;false&apos;;} else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Spend_Categories&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Cost_Center_Hierarchy_Only&apos;) {flowVars.service = &apos;Custom_CC&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Grant_With_Parent_Hierarchy&apos;) {flowVars.service = &apos;Custom_CC&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Project_With_Cost_Center&apos;) {flowVars.service = &apos;Custom_CC&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Gift_With_Cost_Center&apos;) {flowVars.service = &apos;Custom_CC&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Cost_Center_With_Program&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Grant_Hierarchy_Only&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Employee&apos;) {flowVars.service = &apos;Custom&apos;; } else {if (flowVars.operation==&apos;CRINT120_FDMExtract_JPM_Employee_Project_With_Cost_Center&apos;) {flowVars.service = &apos;Custom_CC&apos;;} else {if (flowVars.operation == &apos;CRINT120_FDMExtract_JPM_Employee_Gift_With_Cost_Center&apos;) {flowVars.service = &apos;Custom_CC&apos;; } else {if (flowVars.operation==&apos;CRINT120_FDMExtract_JPM_Employee_Programs_With_CC&apos;) {flowVars.service = &apos;Custom_CC&apos;;} }}}}}}}}}}}}}}}}]]&gt;&lt;/expression-component&gt;</pre>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">99</span>&nbsp;
+                    Column: <span class="text-italic text-normal">61</span>
+                </h4>
+                <br>
+                <pre>&lt;expression-component doc:name=&quot;Expression&quot;&gt;&lt;![CDATA[flowVars.header = &apos;Chart Of Accounts Segment Value Description Key Segment Key Value Add/Update/Delete Flag Blank Override&apos;; sessionVars.stop = &apos;false&apos;; sessionVars.fileName = &apos;ASU_JPM_Segments&apos;;]]&gt;&lt;/expression-component&gt;</pre>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">151</span>&nbsp;
+                    Column: <span class="text-italic text-normal">57</span>
+                </h4>
+                <br>
+                <pre>&lt;expression-component doc:name=&quot;Expression&quot;&gt;&lt;![CDATA[sessionVars.service = payload.split(&apos;,&apos;)[0]; sessionVars.operation = payload.split(&apos;,&apos;)[1]; flowVars.header=&apos;null&apos;;]]&gt;&lt;/expression-component&gt;</pre>
+                <hr>
+            </div>
+    </div>
+</body>
+</html>

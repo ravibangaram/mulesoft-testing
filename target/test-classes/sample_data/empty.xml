@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<wd:Report_Data
+    xmlns:wd="urn:com.workday/bsvc">
+    <wd:Report_Entry>
+        <wd:Organization wd:Descriptor="Cheng-C6246 (inactive)">
+            <wd:ID wd:type="WID">45174d569896010233fb347fde9e755c</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E02868</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E02868</wd:ID>
+        </wd:Organization>
+        <wd:Reference_ID>E02868</wd:Reference_ID>
+        <wd:Id>E02868</wd:Id>
+        <wd:name>Cheng-C6246</wd:name>
+        <wd:Inactive>1</wd:Inactive>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:Organization wd:Descriptor="E00001 Abbas - J1415">
+            <wd:ID wd:type="WID">ba3babf7803401c21365ef41f70b4f1d</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00001</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00001</wd:ID>
+        </wd:Organization>
+        <wd:Reference_ID>E00001</wd:Reference_ID>
+        <wd:Id>E00001</wd:Id>
+        <wd:name>Abbas - J1415</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:Organization wd:Descriptor="E00002 Abbaszadegan - M8623">
+            <wd:ID wd:type="WID">ba3babf780340103c5409c1af90b811d</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00002</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00002</wd:ID>
+        </wd:Organization>
+        <wd:Reference_ID>E00002</wd:Reference_ID>
+        <wd:Id>E00002</wd:Id>
+        <wd:name>Abbaszadegan - M8623</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+    </wd:Report_Entry>
+</wd:Report_Data>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wd:Report_Data
+    xmlns:wd="urn:com.workday/bsvc">
+    <wd:Report_Entry>
+        <wd:referenceID>J0000124</wd:referenceID>
+        <wd:Project_ID wd:Descriptor="J0000124">
+            <wd:ID wd:type="WID">f61f58a7e05001ed32ab1f8a451b3fc1</wd:ID>
+            <wd:ID wd:type="Project_ID">J0000124</wd:ID>
+        </wd:Project_ID>
+        <wd:Cost_Center_ID wd:Descriptor="CC0817 GU-Plant Projects">
+            <wd:ID wd:type="WID">ba3babf7803401a83c9dee43f00ba719</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CC0817</wd:ID>
+            <wd:ID wd:type="Cost_Center_Reference_ID">CC0817</wd:ID>
+        </wd:Cost_Center_ID>
+        <wd:Academic_Employee wd:Descriptor="E00060 Arrowsmith - R3946">
+            <wd:ID wd:type="WID">ba3babf7803401c7c9a8861bf90b351e</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00060</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00060</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Arrowsmith - R3946</wd:name>
+            <wd:Reference_ID>E00060</wd:Reference_ID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+        <wd:Cost_Center>
+            <wd:Included_by_Organizations wd:Descriptor="CCH450 Plant Projects">
+                <wd:ID wd:type="WID">f61f58a7e050018b3484acfb511b03fc</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">CCH450</wd:ID>
+                <wd:ID wd:type="Custom_Organization_Reference_ID">CCH450</wd:ID>
+            </wd:Included_by_Organizations>
+        </wd:Cost_Center>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>J0000125</wd:referenceID>
+        <wd:Project_ID wd:Descriptor="J0000125">
+            <wd:ID wd:type="WID">f61f58a7e050012403282d8a451b59c1</wd:ID>
+            <wd:ID wd:type="Project_ID">J0000125</wd:ID>
+        </wd:Project_ID>
+        <wd:Cost_Center_ID wd:Descriptor="CC0872 FDM-Plant Projects">
+            <wd:ID wd:type="WID">ba3babf780340146afec9e44f00b631a</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CC0872</wd:ID>
+            <wd:ID wd:type="Cost_Center_Reference_ID">CC0872</wd:ID>
+        </wd:Cost_Center_ID>
+        <wd:Academic_Employee wd:Descriptor="E01771 Vidt - M4582">
+            <wd:ID wd:type="WID">ba3babf78034015b34c06134f90bdc31</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E01771</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E01771</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Vidt - M4582</wd:name>
+            <wd:Reference_ID>E01771</wd:Reference_ID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+        <wd:Cost_Center>
+            <wd:Included_by_Organizations wd:Descriptor="CCH456 FDM-Organizational Areas">
+                <wd:ID wd:type="WID">ae300a9ad06b01d77c89bf24a0a42e41</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">CCH456</wd:ID>
+                <wd:ID wd:type="Custom_Organization_Reference_ID">CCH456</wd:ID>
+            </wd:Included_by_Organizations>
+        </wd:Cost_Center>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>J0000255</wd:referenceID>
+        <wd:Project_ID wd:Descriptor="J0000255">
+            <wd:ID wd:type="WID">46275945009401f640ae171ed625c605</wd:ID>
+            <wd:ID wd:type="Project_ID">J0000255</wd:ID>
+        </wd:Project_ID>
+        <wd:Cost_Center_ID wd:Descriptor="CC0870 GU-FS Plant Projects">
+            <wd:ID wd:type="WID">ba3babf78034013440649744f00b5b1a</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CC0870</wd:ID>
+            <wd:ID wd:type="Cost_Center_Reference_ID">CC0870</wd:ID>
+        </wd:Cost_Center_ID>
+        <wd:Academic_Employee wd:Descriptor="E00550 Garcia - E2175">
+            <wd:ID wd:type="WID">ba3babf7803401d55ec28022f90bc923</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00550</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00550</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Garcia - E2175</wd:name>
+            <wd:Reference_ID>E00550</wd:Reference_ID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+        <wd:Cost_Center>
+            <wd:Included_by_Organizations wd:Descriptor="CCH084 VP-General University">
+                <wd:ID wd:type="WID">ba3babf780340164487952cbe70b9b08</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">CCH084</wd:ID>
+                <wd:ID wd:type="Custom_Organization_Reference_ID">CCH084</wd:ID>
+            </wd:Included_by_Organizations>
+        </wd:Cost_Center>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>J0000305</wd:referenceID>
+        <wd:Project_ID wd:Descriptor="J0000305">
+            <wd:ID wd:type="WID">07b982f664b0010228c8407fc73cf682</wd:ID>
+            <wd:ID wd:type="Project_ID">J0000305</wd:ID>
+        </wd:Project_ID>
+        <wd:Cost_Center_ID wd:Descriptor="CC0872 FDM-Plant Projects">
+            <wd:ID wd:type="WID">ba3babf780340146afec9e44f00b631a</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CC0872</wd:ID>
+            <wd:ID wd:type="Cost_Center_Reference_ID">CC0872</wd:ID>
+        </wd:Cost_Center_ID>
+        <wd:Academic_Employee wd:Descriptor="E02233 Villa - N9510">
+            <wd:ID wd:type="WID">ba3babf78034014d924d9e3af90bda36</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E02233</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E02233</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Villa - N9510</wd:name>
+            <wd:Reference_ID>E02233</wd:Reference_ID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+        <wd:Cost_Center>
+            <wd:Included_by_Organizations wd:Descriptor="CCH456 FDM-Organizational Areas">
+                <wd:ID wd:type="WID">ae300a9ad06b01d77c89bf24a0a42e41</wd:ID>
+                <wd:ID wd:type="Organization_Reference_ID">CCH456</wd:ID>
+                <wd:ID wd:type="Custom_Organization_Reference_ID">CCH456</wd:ID>
+            </wd:Included_by_Organizations>
+        </wd:Cost_Center>
+    </wd:Report_Entry>
+</wd:Report_Data>

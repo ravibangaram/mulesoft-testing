@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:secure-properties="http://www.mulesoft.org/schema/mule/secure-properties" xmlns:sftp="http://www.mulesoft.org/schema/mule/sftp" xmlns:spring-module="http://www.mulesoft.org/schema/mule/spring" xmlns:tls="http://www.mulesoft.org/schema/mule/tls" xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:wd-connector="http://www.mulesoft.org/schema/mule/wd-connector" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/wd-connector http://www.mulesoft.org/schema/mule/wd-connector/current/mule-wd-connector.xsd http://www.mulesoft.org/schema/mule/sftp http://www.mulesoft.org/schema/mule/sftp/current/mule-sftp.xsd http://www.mulesoft.org/schema/mule/spring http://www.mulesoft.org/schema/mule/spring/current/mule-spring.xsd http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/schema/mule/secure-properties/current/mule-secure-properties.xsd http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/current/mule-tls.xsd http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+
+    <spring-module:security-manager name="Spring_Security_Provider" doc:name="Spring Security Provider">
+        <spring-module:delegate-security-provider name="SecurityProvider" delegate-ref="duoAuth" />
+    </spring-module:security-manager>
+
+    <secure-properties:config file="asu-wdayf2jpm-fdm-extract.properties" key="${asu-wdayf2jpm-fdm-extract.password}" name="Secure_Property_Placeholder">
+        <!--Migration ERROR: Review uses of properties defined in the referenced file, and add the 'secure' prefix to them.-->
+        <!--    For more information refer to:-->
+        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-secure-properties-placeholder-->
+        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/secure-configuration-properties#usage-->
+        <secure-properties:encrypt algorithm="Blowfish" mode="CBC" />
+    </secure-properties:config>
+
+    <http:listener-config name="HTTP_Listener_Configuration" doc:name="HTTP Listener Configuration">
+        <http:listener-connection protocol="HTTPS" host="${asu.server.ip}" port="${asu.http.port}" connectionIdleTimeout="240000">
+            <tls:context>
+                <tls:key-store type="jks" path="${asu.server.keystore}" keyPassword="${asu.server.keystore.password}" password="${asu.server.keystore.password}" />
+            </tls:context>
+        </http:listener-connection>
+    </http:listener-config>
+
+    <wd-connector:config name="Workday__Basic_ASU" username="${wd.user}" password="${wd.password}" tenantName="${wd.tenant}" testConnectivtyService="Financial_Management" doc:name="Workday: Basic" hostName="${wd.host}">
+        <!--Migration ERROR: The migration of 'wd-connector' is not supported.-->
+        <!--    For more information refer to:-->
+        <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-connectors-->
+        <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool.adoc#unsupported_connectors-->
+    </wd-connector:config>
+
+    <validation:config name="Validation_Configuration5" doc:name="Validation Configuration" />
+
+    <http:request-config name="HTTP_Request_Configuration" doc:name="HTTP Request Configuration">
+        <http:request-connection protocol="HTTPS" host="${wd.host}" port="${wd.port}" connectionIdleTimeout="120000">
+            <http:authentication>
+                <http:basic-authentication username="${wd.user.login}" password="${wd.user.password}" />
+            </http:authentication>
+        </http:request-connection>
+    </http:request-config>
+
+    <sftp:config name="SFTP" doc:name="SFTP">
+        <sftp:connection host="${file.sftp.host}" port="${file.sftp.port}" username="${file.sftp.user}" password="${file.sftp.password}" connectionTimeout="10000" connectionTimeoutUnit="MILLISECONDS">
+            <reconnection failsDeployment="true" />
+        </sftp:connection>
+    </sftp:config>
+
+    <file:config name="File1" doc:name="File">
+        <file:connection workingDir=".">
+            <reconnection failsDeployment="true" />
+        </file:connection>
+    </file:config>
+
+    <spring-module:config name="springConfig_config" files="spring/config-beans.xml" />
+
+</mule>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wd:Report_Data
+	xmlns:wd="urn:com.workday/bsvc">
+	<wd:Report_Entry>
+		<wd:referenceID>CC0001</wd:referenceID>
+		<wd:code>CC0001</wd:code>
+		<wd:name>FA-Federal Work Study Grant</wd:name>
+		<wd:Inactive>0</wd:Inactive>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+			<wd:ID wd:type="Program_ID">PG99997</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+			<wd:ID wd:type="Program_ID">PG99994</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02665 FA-FWS Community Service Learning Program-RST">
+			<wd:ID wd:type="WID">ba3babf78034019a04d129c73a0c6071</wd:ID>
+			<wd:ID wd:type="Program_ID">PG02665</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00010 FA-FWS America Reads Off Campus-AGY">
+			<wd:ID wd:type="WID">ba3babf78034011f64688d6b3a0cad43</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00010</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00009 FA-Work Study Outside-AGY">
+			<wd:ID wd:type="WID">ba3babf7803401600099856b3a0ca943</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00009</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00007 FA-Federal Workstudy Grant-RST">
+			<wd:ID wd:type="WID">ba3babf7803401ee2062736b3a0ca143</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00007</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00006 FA-FWS America Reads-RST">
+			<wd:ID wd:type="WID">ba3babf7803401ebf2786b6b3a0c9d43</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00006</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Included_by_Organizations wd:Descriptor="CCH292 Federal Grants">
+			<wd:ID wd:type="WID">ba3babf780340138049858cae70bfc07</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">CCH292</wd:ID>
+			<wd:ID wd:type="Custom_Organization_Reference_ID">CCH292</wd:ID>
+		</wd:Included_by_Organizations>
+		<wd:Program_group>
+			<wd:Inactive>0</wd:Inactive>
+		</wd:Program_group>
+	</wd:Report_Entry>
+	<wd:Report_Entry>
+		<wd:referenceID>CC0019</wd:referenceID>
+		<wd:code>CC0019</wd:code>
+		<wd:name>BDI-Molecular Biomarkers</wd:name>
+		<wd:Inactive>0</wd:Inactive>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00142 BDI-Operations-RID">
+			<wd:ID wd:type="WID">ba3babf7803401990be871703a0cf045</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00142</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+			<wd:ID wd:type="Program_ID">PG99997</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+			<wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00030</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00141 BDI-Operations-LCL">
+			<wd:ID wd:type="WID">ba3babf780340124b0a869703a0cec45</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00141</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+			<wd:ID wd:type="Program_ID">PG99994</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00140 BDI-Operations-NLT">
+			<wd:ID wd:type="WID">ba3babf7803401be888161703a0ce845</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00140</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00134 BDI-Molecular Biomarkers Bridge Funding-TRIF (inactive)">
+			<wd:ID wd:type="WID">ba3babf78034015895a02e703a0ccd45</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00134</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00086 BDI-Dobrin Nedelkov-IIA (inactive)">
+			<wd:ID wd:type="WID">ba3babf78034018114a26d6e3a0cf344</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00086</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+			<wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+			<wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+		</wd:Included_by_Organizations>
+		<wd:Program_group>
+			<wd:Inactive>0</wd:Inactive>
+		</wd:Program_group>
+	</wd:Report_Entry>
+	<wd:Report_Entry>
+		<wd:referenceID>CC0020</wd:referenceID>
+		<wd:code>CC0020</wd:code>
+		<wd:name>BDI-Molecular Design and Biomimetics</wd:name>
+		<wd:Inactive>0</wd:Inactive>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+			<wd:ID wd:type="Program_ID">PG99997</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07868 BDI-BSS Carlo Maley Iseec-LCL">
+			<wd:ID wd:type="WID">ba3babf780340127639cbb963b0ca1c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07868</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+			<wd:ID wd:type="Program_ID">PG99994</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0091 BDI - Rizal Hariadi - IIA">
+			<wd:ID wd:type="WID">e6c5a98a3aec017f454c5343c01f76d6</wd:ID>
+			<wd:ID wd:type="Program_ID">PGK0091</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13102 BDI-Residual: MDB Nicholas Stephanopoulos-FPR">
+			<wd:ID wd:type="WID">5ddbd9ba3bd6013ed65ebd660d01558d</wd:ID>
+			<wd:ID wd:type="Program_ID">PG13102</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07859 BDI-MDB Nicholas Stephanopoulos Startup-NLT">
+			<wd:ID wd:type="WID">ba3babf7803401ee754433963b0c77c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07859</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07858 BDI-MDB Nicholas Stephanopoulos Startup-GOT">
+			<wd:ID wd:type="WID">ba3babf7803401a6df0f28963b0c72c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07858</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07857 BDI-MDB Jeremy Mills Startup-NLT">
+			<wd:ID wd:type="WID">ba3babf78034016305c21c963b0c6dc5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07857</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07856 BDI-MDB Jeremy Mills Startup-GOT">
+			<wd:ID wd:type="WID">ba3babf780340118fd160e963b0c68c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07856</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07855 BDI-MDB Rizal Hariadi Startup-NLT">
+			<wd:ID wd:type="WID">ba3babf78034010b2a8e02963b0c63c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07855</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07854 BDI-MDB Rizal Hariadi Startup-GOT">
+			<wd:ID wd:type="WID">ba3babf78034013f7d8cf7953b0c5ec5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07854</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06503 BDI-Hao Yan Faculty Startup-NLT">
+			<wd:ID wd:type="WID">ba3babf78034018dddcbcd5d3b0c20b0</wd:ID>
+			<wd:ID wd:type="Program_ID">PG06503</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07853 BDI-MDB Alexander Green Startup-NLT">
+			<wd:ID wd:type="WID">ba3babf78034011199d0eb953b0c59c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07853</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07852 BDI-MDB Alexander Green Startup-GOT">
+			<wd:ID wd:type="WID">ba3babf78034016a4174e0953b0c54c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07852</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07851 BDI-MDB Confocal Microscopy-RCHG">
+			<wd:ID wd:type="WID">ba3babf7803401134fb0d3953b0c50c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07851</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00107 BDI-Jeremy Mills-IIA">
+			<wd:ID wd:type="WID">ba3babf780340134e649246f3a0c5245</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00107</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0299 BDI - Petr Sulc - IIA">
+			<wd:ID wd:type="WID">78dab1ea139201cfb2662188654408af</wd:ID>
+			<wd:ID wd:type="Program_ID">PGK0299</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+			<wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00030</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04434 NSC-Alexander Green-IIA">
+			<wd:ID wd:type="WID">ba3babf780340136b5aee90a3b0cbc8d</wd:ID>
+			<wd:ID wd:type="Program_ID">PG04434</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00153 BDI-PSIF-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401f6c72dd2703a0c2246</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00153</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10638 BDI-Catalyst Award Yung Chang-LCL">
+			<wd:ID wd:type="WID">2aacb7974a7001dc0e9f1b564bb11cfc</wd:ID>
+			<wd:ID wd:type="Program_ID">PG10638</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04880 BDI-Nicholas Stephanopoulos-IIA">
+			<wd:ID wd:type="WID">ba3babf78034019cdf0c4a1d3b0ca395</wd:ID>
+			<wd:ID wd:type="Program_ID">PG04880</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13154 BDI-Residual: MDB Hao-FPR">
+			<wd:ID wd:type="WID">716e167e019501c3182b2e8c0301d083</wd:ID>
+			<wd:ID wd:type="Program_ID">PG13154</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00074 BDI-DCU ASU Collaboration-RID">
+			<wd:ID wd:type="WID">ba3babf7803401fb5c99076e3a0cbe44</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00074</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08972 BDI-MDB Petr Sulc Faculty Startup-GOT">
+			<wd:ID wd:type="WID">ba3babf78034014bbe5ae3c73b0cb4d7</wd:ID>
+			<wd:ID wd:type="Program_ID">PG08972</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04673 BDI-Hao Yan-IIA">
+			<wd:ID wd:type="WID">ba3babf7803401ea6eb9f7143b0ce191</wd:ID>
+			<wd:ID wd:type="Program_ID">PG04673</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08971 BDI-MDB Petr Sulc Faculty Startup-NLT">
+			<wd:ID wd:type="WID">ba3babf78034011d6d16d7c73b0cb0d7</wd:ID>
+			<wd:ID wd:type="Program_ID">PG08971</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00071 BDI-CMDB Yan Startup-TRIF">
+			<wd:ID wd:type="WID">ba3babf780340175b51df06d3a0cb144</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00071</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13639 BDI-MDB Alex Green RA Support Startup-NLT">
+			<wd:ID wd:type="WID">46d60846741501b19e8b039cfb016fa5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG13639</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG05127 BDI-Yan Liu-IIA">
+			<wd:ID wd:type="WID">ba3babf7803401a538b892273b0c049a</wd:ID>
+			<wd:ID wd:type="Program_ID">PG05127</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00069 BDI-CLAS Biomimicry-RID">
+			<wd:ID wd:type="WID">ba3babf7803401a6fa66e06d3a0ca944</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00069</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00133 BDI-MDB Research Royalties-LCL">
+			<wd:ID wd:type="WID">ba3babf7803401f3b24626703a0cc945</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00133</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00197 NSC-Yung Chang-IIA">
+			<wd:ID wd:type="WID">ba3babf78034012ae0e33e723a0ced46</wd:ID>
+			<wd:ID wd:type="Program_ID">PG00197</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07872 BDI-SIF Biomimetic and Bioinspired Engineering Center-GOT">
+			<wd:ID wd:type="WID">ba3babf7803401cc6743e8963b0cb2c5</wd:ID>
+			<wd:ID wd:type="Program_ID">PG07872</wd:ID>
+		</wd:Allowed_Related_Worktags_by_Type>
+		<wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+			<wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+			<wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+		</wd:Included_by_Organizations>
+		<wd:Program_group>
+			<wd:Inactive>0</wd:Inactive>
+		</wd:Program_group>
+	</wd:Report_Entry>
+	<wd:Report_Entry>
+		<wd:referenceID>CCG045</wd:referenceID>
+		<wd:code>CCG045</wd:code>
+		<wd:name>RMWSSS-Rob and Melani Walton Sustainability Solutions Services</wd:name>
+		<wd:Inactive>0</wd:Inactive>
+		<wd:Included_by_Organizations wd:Descriptor="CCH369 Gift - Scholarship Reporting">
+			<wd:ID wd:type="WID">ba3babf78034010a191221cde70bb509</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">CCH369</wd:ID>
+			<wd:ID wd:type="Custom_Organization_Reference_ID">CCH369</wd:ID>
+		</wd:Included_by_Organizations>
+		<wd:Program_group>
+			<wd:Inactive>0</wd:Inactive>
+		</wd:Program_group>
+	</wd:Report_Entry>
+	<wd:Report_Entry>
+		<wd:referenceID>CCG046</wd:referenceID>
+		<wd:code>CCG046</wd:code>
+		<wd:name>EHS-Environmental Health and Safety</wd:name>
+		<wd:Inactive>0</wd:Inactive>
+		<wd:Included_by_Organizations wd:Descriptor="CCH369 Gift - Scholarship Reporting">
+			<wd:ID wd:type="WID">ba3babf78034010a191221cde70bb509</wd:ID>
+			<wd:ID wd:type="Organization_Reference_ID">CCH369</wd:ID>
+			<wd:ID wd:type="Custom_Organization_Reference_ID">CCH369</wd:ID>
+		</wd:Included_by_Organizations>
+		<wd:Program_group>
+			<wd:Inactive>0</wd:Inactive>
+		</wd:Program_group>
+	</wd:Report_Entry>
+</wd:Report_Data>

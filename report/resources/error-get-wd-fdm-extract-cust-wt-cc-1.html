@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mule Migratiol Assistant Report</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/mulesoft-styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/tsorter.css">
+</head>
+<body>
+    <div class="mulesoft-topbar">
+        <div class="mulesoft-appbar">
+            <div class="muleicon muleicon-logo"></div>
+            <div class="anypoint-brand">Mule Migration Assistant 1.0.0</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 sidemenu">
+        <ul class="sidemenu-back">
+            <li><a href="../summary.html">Summary</a></li>
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <h2 class="text-bold">Issues found on: <span class="text-italic text-normal">get-wd-fdm-extract-cust-wt-cc.xml</span></h2>
+        <h4 class="text-bold">Description: <span class="text-italic text-normal">Custom types defined in Studio 6 are not migrated to Studio 7.</span></h4>
+        <h4 class="text-bold">Documentation: </h4>
+        <hr>
+        <br>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">25</span>&nbsp;
+                    Column: <span class="text-italic text-normal">56</span>
+                </h4>
+                <br>
+                <pre>&lt;ee:transform doc:name=&quot;CR-Project-CC&quot; metadata:id=&quot;e976a5ee-ff7d-40db-9a99-5f0e2aa4b823&quot;&gt;
+    &lt;ee:message&gt;
+        &lt;ee:set-payload&gt;&lt;![CDATA[%dw 2.0 output application/json encoding=&quot;UTF-8&quot; ns ns0 urn:com.workday/bsvc --- { &quot;fdm_extract&quot;: { validCount: sizeOf((payload.ns0#&quot;Report_Data&quot;.*ns0#&quot;Report_Entry&quot; map {})), data: payload.ns0#&quot;Report_Data&quot;.*ns0#&quot;Report_Entry&quot; filter (not $ == null) map using (a = $.ns0#&quot;project_Name&quot;, b = $.ns0#&quot;Cost_Center_ID&quot;) { segment: &quot;3&quot;, id: $.ns0#referenceID default &quot;&quot; ++ &quot;~&quot; ++ $.ns0#&quot;Cost_Center_ID&quot;.*ns0#ID[1] default &quot;&quot;, name: (if ((sizeOf(a)) &gt; 23) a[0 to 23] else a) default &quot;&quot; ++ &quot;~&quot; ++ (if ((sizeOf(b.@Descriptor[1 + sizeOf(b.*ns0#ID[1]) to -1])) &gt; 23) b.@Descriptor[sizeOf(b.*ns0#ID[1]) to -1][1 to 24] else b.@Descriptor[1 + sizeOf(b.*ns0#ID[1]) to -1]) default &quot;&quot;, keySegment: &quot;2&quot;, keyValue: $.ns0#&quot;Cost_Center&quot;.ns0#&quot;Included_by_Organizations&quot;.*ns0#ID[1], status: $.ns0#&quot;Cost_Center&quot;.ns0#Inactive } filter not $.id == null and not $.status == &quot;1&quot; } }]]&gt;&lt;/ee:set-payload&gt;
+    &lt;/ee:message&gt;
+&lt;/ee:transform&gt;</pre>
+                <hr>
+            </div>
+    </div>
+</body>
+</html>

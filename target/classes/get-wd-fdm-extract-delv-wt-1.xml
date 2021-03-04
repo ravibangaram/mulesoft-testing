@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:compatibility="http://www.mulesoft.org/schema/mule/compatibility" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns:os="http://www.mulesoft.org/schema/mule/os" xmlns:sftp="http://www.mulesoft.org/schema/mule/sftp" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/sftp http://www.mulesoft.org/schema/mule/sftp/current/mule-sftp.xsd http://www.mulesoft.org/schema/mule/os http://www.mulesoft.org/schema/mule/os/current/mule-os.xsd http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd http://www.mulesoft.org/schema/mule/compatibility http://www.mulesoft.org/schema/mule/compatibility/current/mule-compatibility.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+
+    <os:object-store name="ObjectStore__Connector" persistent="true" doc:name="ObjectStore: Connector" />
+
+    <sub-flow name="page-count">
+        <ee:transform doc:name="JSON to Object">
+            <ee:message>
+                <ee:set-payload>%dw 2.0 output application/java --- payload</ee:set-payload>
+            </ee:message>
+        </ee:transform>
+        <compatibility:set-session-variable variableName="pageCount" value="#[mel:json:fdm_extract/pageCount]" doc:name="Session Variable">
+            <!--Migration WARN: Instead of using session variables in the flow, use variables.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#session_variables-->
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+        </compatibility:set-session-variable>
+        <compatibility:set-session-variable variableName="totalPages" value="#[mel:json:fdm_extract/totalPages]" doc:name="Session Variable">
+            <!--Migration WARN: Instead of using session variables in the flow, use variables.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#session_variables-->
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+        </compatibility:set-session-variable>
+    </sub-flow>
+
+    <sub-flow name="upload-files">
+        <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='Uploading file for operation='$(sessionVars.operation), filename: $(sessionVars.fileName)_$(now() as String {format: &quot;${yyyyMMdd}&quot;}) , $(sessionVars.stop) and username= $(vars.server.userName)&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.file" />
+        <choice doc:name="Choice">
+            <when expression="#[vars.server.userName != 'muleesb']">
+                <compatibility:outbound-properties-to-var>
+                    <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                </compatibility:outbound-properties-to-var>
+                <sftp:write config-ref="SFTP" path="#['${file.sftp.location}/' ++ migration::SftpWriteOutputFile::sftpWriteOutputfile(vars, { outputPattern: '${data.file.name}', outputPatternConfig: null})]" doc:name="SFTP" encoding="US-ASCII" mode="APPEND" />
+                <compatibility:attributes-to-inbound-properties>
+                    <!--Migration WARN: Expressions that query 'inboundProperties' from the message should instead query the message 'attributes'. Remove this component if there are no uses of 'inboundProperties' in expressions or components that rely on 'inboundProperties' (such as 'copy-properties').-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/intro-mule-message#inbound-properties-are-now-attributes-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#inbound_properties-->
+                </compatibility:attributes-to-inbound-properties>
+            </when>
+            <when expression="#[mel:sessionVars.stop == 'false' and payload != empty and server.userName=='muleesb']">
+                <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                <!--    For more information refer to:-->
+                <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                <compatibility:outbound-properties-to-var>
+                    <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+                </compatibility:outbound-properties-to-var>
+                <file:write path="#[migration::FileWriteOutputFile::fileWriteOutputfile(vars, { writeToDirectory: '${file.server.location}', address: null, outputPattern: '${data.file.name}', outputPatternConfig: null})]" config-ref="File1" responseTimeout="10000" doc:name="File" encoding="US-ASCII" mode="APPEND" />
+                <compatibility:attributes-to-inbound-properties>
+                    <!--Migration WARN: Expressions that query 'inboundProperties' from the message should instead query the message 'attributes'. Remove this component if there are no uses of 'inboundProperties' in expressions or components that rely on 'inboundProperties' (such as 'copy-properties').-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/intro-mule-message#inbound-properties-are-now-attributes-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#inbound_properties-->
+                </compatibility:attributes-to-inbound-properties>
+            </when>
+            <otherwise>
+                <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='Stop in service : ' $(sessionVars.service), and operation =&gt; $(sessionVars.operation)&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.file" />
+            </otherwise>
+        </choice>
+        <flow-ref name="storing-worktag-row-count" doc:name="storing-worktag-row-count" />
+    </sub-flow>
+
+    <sub-flow name="storing-worktag-row-count">
+        <logger message="#[&quot;starting object store $(sessionVars.worktagRowCountOS)&quot;]" level="INFO" doc:name="Logger" />
+        <os:retrieve objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore" />
+        <choice doc:name="Choice">
+            <when expression="#[payload != 0]">
+                <logger message="#[&quot;when payload != 0 , stored in OS $(vars.finalTotal)&quot;]" level="INFO" doc:name="Logger" />
+                <set-variable variableName="finalRowCount" value="#[mel:payload + Integer.parseInt(sessionVars.worktagRowCountOS)]" doc:name="Variable">
+                    <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                    <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                    <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                    <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                </set-variable>
+                <os:store objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore">
+                    <os:value><![CDATA[#[vars.finalRowCount]]]></os:value>
+                </os:store>
+            </when>
+            <otherwise>
+                <logger message="#[&quot;when payload == 0, first value from OS $(payload)&quot;]" level="INFO" doc:name="Logger" />
+                <choice doc:name="Choice">
+                    <when expression="#[sessionVars.worktagRowCountOS != null]">
+                        <os:store objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore">
+                            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+                            <!--    For more information refer to:-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+                            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+                            <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+                            <!--    For more information refer to:-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+                            <os:value><![CDATA[#[mel:payload + Integer.parseInt(sessionVars.worktagRowCountOS)]]]></os:value>
+                        </os:store>
+                    </when>
+                    <otherwise>
+                        <logger message="when worktagRowCountOS is null" level="INFO" doc:name="Logger" />
+                        <os:store objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore">
+                            <os:value><![CDATA[#[payload]]]></os:value>
+                        </os:store>
+                    </otherwise>
+                </choice>
+            </otherwise>
+        </choice>
+        <os:retrieve objectStore="ObjectStore__Connector" key="worktagRowCount" doc:name="ObjectStore" />
+        <logger message="#[&quot;Fianl value in OS= '$(payload)'&quot;]" level="INFO" doc:name="Logger" />
+    </sub-flow>
+
+</mule>

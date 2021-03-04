@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wd:Report_Data
+    xmlns:wd="urn:com.workday/bsvc">
+    <wd:Report_Entry>
+        <wd:referenceID>CC0001</wd:referenceID>
+        <wd:code>CC0001</wd:code>
+        <wd:name>FA-Federal Work Study Grant</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02665 FA-FWS Community Service Learning Program-RST">
+            <wd:ID wd:type="WID">ba3babf78034019a04d129c73a0c6071</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02665</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00010 FA-FWS America Reads Off Campus-AGY">
+            <wd:ID wd:type="WID">ba3babf78034011f64688d6b3a0cad43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00010</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00009 FA-Work Study Outside-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401600099856b3a0ca943</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00009</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00007 FA-Federal Workstudy Grant-RST">
+            <wd:ID wd:type="WID">ba3babf7803401ee2062736b3a0ca143</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00007</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00006 FA-FWS America Reads-RST">
+            <wd:ID wd:type="WID">ba3babf7803401ebf2786b6b3a0c9d43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00006</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH292 Federal Grants">
+            <wd:ID wd:type="WID">ba3babf780340138049858cae70bfc07</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH292</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH292</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0002</wd:referenceID>
+        <wd:code>CC0002</wd:code>
+        <wd:name>ES-Financial Aid and Scholarship Services</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02560 ES-Renovation-RSV">
+            <wd:ID wd:type="WID">ba3babf780340163d4a754c43a0c2e70</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02560</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02558 ES-Poly Operations-GOT">
+            <wd:ID wd:type="WID">ba3babf780340197bad341c43a0c2670</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02558</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02552 ES-Off Campus Work Study Admin-LCL">
+            <wd:ID wd:type="WID">ba3babf78034018c8aa019c43a0c1670</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02552</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02551 ES-Off Campus PeopleSoft Placeholder-LCL">
+            <wd:ID wd:type="WID">ba3babf78034012059cb0fc43a0c1270</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02551</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02549 ES-Job Location and Development-LCL">
+            <wd:ID wd:type="WID">ba3babf780340123cee0fcc33a0c0a70</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02549</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02545 ES-FA Direct Lending Administration-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d30950eac33a0c0270</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02545</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02541 ES-DPC Operations-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401f27877c3c33a0cf26f</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02541</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00008 ES-Internal Work Study-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401a4c17e7c6b3a0ca543</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00008</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02570 ES-West Operations-GOT">
+            <wd:ID wd:type="WID">ba3babf78034018616ab8dc43a0c4670</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02570</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02566 ES-Tempe Operations-LCL">
+            <wd:ID wd:type="WID">ba3babf780340169db1d7ac43a0c3e70</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02566</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02565 ES-Tempe Operations-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401e818e370c43a0c3a70</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02565</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02564 ES-Tempe Operations-GOT">
+            <wd:ID wd:type="WID">ba3babf78034019d666567c43a0c3670</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02564</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH339 ES Scholarship Service">
+            <wd:ID wd:type="WID">ba3babf78034012c25bf6ccce70b5b09</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH339</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH339</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0003</wd:referenceID>
+        <wd:code>CC0003</wd:code>
+        <wd:name>GU-University Clearing</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03045 GU-Returned E Check Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401af592b82d43a0cca76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03045</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03043 GU-RA TA Tuition Remission Adjustment-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401ad3beb6ed43a0cc276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03043</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11280 GU-Third Party Contract Clearing-Lindsay USD-AGY">
+            <wd:ID wd:type="WID">e6c5a98a3aec010a250afc281a20231d</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11280</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03042 GU-PS Conversion Balance Clearing-AGY (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401cb914965d43a0cbe76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03042</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03041 GU-PS Balance for Revenue Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401d4fa165cd43a0cba76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03041</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11159 GU-ISA Clearing Account-AGY">
+            <wd:ID wd:type="WID">9ce2d5bc733a01a20f581d9adf1268a1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11159</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03033 GU-Poly Facman 3rd Party Billings-AGY">
+            <wd:ID wd:type="WID">ba3babf780340160875f0dd43a0c9a76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03033</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03025 GU-Payroll Overpayments-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401c19230bdd33a0c7a76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03025</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03024 GU-Miscellaneous Student Accounts Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401afcaa6b3d33a0c7676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03024</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03023 GU-Miscellaneous Student Accounts Charges-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401e1f574aad33a0c7276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03023</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03022 GU-MasterCard Foundation-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401b9b308a1d33a0c6e76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03022</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03021 GU-International Student Payment Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401eed6e397d33a0c6a76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03021</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03020 GU-Financial Aid Fee-Holding-AGY">
+            <wd:ID wd:type="WID">ba3babf78034011f43e78ed33a0c6676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03020</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03019 GU-Extended Repayment Program-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401ff1a5685d33a0c6276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03019</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03017 GU-Employee Reimbursement Direct Deposit-AGY">
+            <wd:ID wd:type="WID">ba3babf78034012065fd70d33a0c5a76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03017</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03016 GU-ECSI AR Payment Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401459b3f67d33a0c5676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03016</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03136 GU-Write Off Reactivation Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf780340149a366eed73a0c3678</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03136</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03135 GU-Write Off Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034017813d9e4d73a0c3278</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03135</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03004 GU-Departmental Sponsor Payments-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401a73857f7d23a0c2676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03004</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03003 GU-Deceased Student Discharge-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401a476f4ead23a0c2276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03003</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03002 GU-Collection Agency Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf780340193ae98e0d23a0c1e76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03002</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03001 GU-Check Cash Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034012beb8fd6d23a0c1a76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03001</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03000 GU-CH 33 Pending Payments-AGY">
+            <wd:ID wd:type="WID">ba3babf780340180bc24cbd23a0c1676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03000</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03125 GU-West Facman Business Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034014f7f2083d73a0c0a78</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03125</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12668 GU-InStride-AGY">
+            <wd:ID wd:type="WID">3f52f629f133019ad45cd6446f40be63</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12668</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02995 GU-Business Org Payment Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034013105169ad23a0c0276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02995</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02994 GU-Business Account Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf780340128c4ad90d23a0cfe75</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02993 GU-Bankruptcy Discharge-AGY">
+            <wd:ID wd:type="WID">ba3babf780340162aa3a87d23a0cfa75</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02993</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02992 GU-AMT Flight Program Fees-AGY">
+            <wd:ID wd:type="WID">ba3babf780340178871f7ed23a0cf675</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02992</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02991 GU-AMT Flight Class Fees-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401ded42675d23a0cf275</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02991</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03118 GU-VA Chapter 33 Wire Payments-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401d8053540d73a0cee77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03118</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02990 GU-AGY Settlement Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034016818b66bd23a0cee75</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02990</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10266 GU-DTPC FACMAN Business Clearing-AGY">
+            <wd:ID wd:type="WID">88fdff5e14d801140aec2c0f3ba69908</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10266</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03117 GU-VA Chapter 33 Benefit Payments-AGY">
+            <wd:ID wd:type="WID">ba3babf78034013bb2c836d73a0cea77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03117</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02989 GU-Advantage Cash Receipt Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034019df47962d23a0cea75</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02989</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03116 GU-VA Chapter 33 Benefit-AGY">
+            <wd:ID wd:type="WID">ba3babf78034012ca85d2dd73a0ce677</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03116</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02988 GU-Accounts Payable Wires Clearing Account-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401af314b59d23a0ce675</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02988</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03115 GU-Tuition Clearing-MBA-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401e6fa8f23d73a0ce277</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03115</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03114 GU-Tuition and Registration Fees Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034013c250c1ad73a0cde77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03114</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10262 GU-Follett Course Materials Clearing-AGY">
+            <wd:ID wd:type="WID">ae300a9ad06b0171f0a61982ada4e726</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10262</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03113 GU-Tuition Adjustments-AGY">
+            <wd:ID wd:type="WID">ba3babf780340120bcbf10d73a0cda77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03113</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10261 GU-Collection Agency Payment Clearing-AGY">
+            <wd:ID wd:type="WID">ae300a9ad06b011de0dee26cada44026</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10261</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03112 GU-Thunderbird Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401fcaf4007d73a0cd677</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03112</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03111 GU-Third Party Contract Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034012a1115fed63a0cd277</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03111</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09220 GU-Student Accounts Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401b6be9bc6d23b0c97db</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09220</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03055 GU-Sponsored Students ACH Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401d717efe4d43a0cf276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03055</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03054 GU-Sponsored Student Refunds-AGY">
+            <wd:ID wd:type="WID">ba3babf78034018e401bdbd43a0cee76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03054</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03053 GU-Sponsored Stipend Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034018b0691d1d43a0cea76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03053</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03052 GU-South Mountain Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401fc1122c8d43a0ce676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03052</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03051 GU-Small Dollar Cancellation Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf780340158116fbed43a0ce276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03051</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03050 GU-Scholarship Check Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034010f399cb4d43a0cde76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03050</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03049 GU-SACM Flight Program Fee-AGY">
+            <wd:ID wd:type="WID">ba3babf780340193dd80aad43a0cda76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03049</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03048 GU-SAAR Refunds-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401fddb01a1d43a0cd676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03048</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00001 GU-Payroll Expense Clearing-PeopleSoft-AGY">
+            <wd:ID wd:type="WID">ba3babf78034019269d09fb7360c4e43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00001</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03047 GU-SAAR Direct Deposit Voids-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401063aee95d43a0cd276</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03047</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03046 GU-Returned Paper Check Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf780340163fafe8bd43a0cce76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03046</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH084 VP-General University">
+            <wd:ID wd:type="WID">ba3babf780340164487952cbe70b9b08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH084</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH084</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0004</wd:referenceID>
+        <wd:code>CC0004</wd:code>
+        <wd:name>GU-Employee Related Expenses</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03044 GU-RA TA Tuition Remission Percentage Based-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401a82b5678d43a0cc676</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03044</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03076 GU-Tempe ERE Rate Study Administration-LCL">
+            <wd:ID wd:type="WID">ba3babf78034019285e8add53a0c4677</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03076</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03104 GU-Tempe Supplemental Retirement Plan-NLT">
+            <wd:ID wd:type="WID">ba3babf780340127f466bbd63a0cb677</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03104</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03070 GU-Tempe Centralized Vacation Payout-NLT">
+            <wd:ID wd:type="WID">ba3babf78034017029ab74d53a0c2e77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03070</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03069 GU-Tempe Centralized ERE Overage-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401cb758c69d53a0c2a77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03069</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03096 GU-Tempe Presidents Auto and Housing Allowance-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f1fcef6cd63a0c9677</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03096</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03095 GU-Tempe Presidential Retirement-LCL">
+            <wd:ID wd:type="WID">ba3babf780340135c02c63d63a0c9277</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03095</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03094 GU-Tempe Presidential Annuity-LCL">
+            <wd:ID wd:type="WID">ba3babf78034019881f959d63a0c8e77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03094</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03018 GU-Expenses Redistribution Clearing Actuals-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401bd34107bd33a0c5e76</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03018</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG03082 GU-Tempe Health Impact Program-LCL">
+            <wd:ID wd:type="WID">ba3babf78034012a9c3ce6d53a0c5e77</wd:ID>
+            <wd:ID wd:type="Program_ID">PG03082</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00003 GU-RA TA Tuition Remission Standard Rate-LCL">
+            <wd:ID wd:type="WID">ba3babf780340116f316506b3a0c9143</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00003</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00002 GU-Tempe ERE Rate Pool-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401817a45456b3a0c8d43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00002</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH084 VP-General University">
+            <wd:ID wd:type="WID">ba3babf780340164487952cbe70b9b08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH084</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH084</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0005</wd:referenceID>
+        <wd:code>CC0005</wd:code>
+        <wd:name>FS-Reserves and Clearing</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02917 FS-Travel Card Expenses Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf78034015ed1f6abcf3a0cb074</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02917</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02916 FS-Travel Airfare Ghost Card Clearing-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401c6f7cba1cf3a0cac74</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02916</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02880 FS-AZ Biomedical Collaborative-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401eb2e8bbfcd3a0c1c74</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02880</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02908 FS-Sustainability-RSV">
+            <wd:ID wd:type="WID">ba3babf7803401ff30f515cf3a0c8c74</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02908</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11246 FS-Strategic Reserve-RSV">
+            <wd:ID wd:type="WID">648b3ee837d301ab1fd3d729331ba8cc</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11246</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02906 FS-Strategic Initiatives-RSV">
+            <wd:ID wd:type="WID">ba3babf7803401e3919b03cf3a0c8474</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02906</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02905 FS-Renovation-RSV">
+            <wd:ID wd:type="WID">ba3babf7803401f72177face3a0c8074</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02905</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13128 FS-Off Cycle Check Clearing-AGY">
+            <wd:ID wd:type="WID">f8f35a95e31501115c633c76bd012190</wd:ID>
+            <wd:ID wd:type="Program_ID">PG13128</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02900 FS-Optional Retirement Trust-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401d0f0c07ece3a0c6c74</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02900</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02896 FS-Information Security-RSV">
+            <wd:ID wd:type="WID">ba3babf78034018b2ab155ce3a0c5c74</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02896</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02895 FS-Hassayampa Academic Village-AGY">
+            <wd:ID wd:type="WID">ba3babf780340154b6a64cce3a0c5874</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02895</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02894 FS-Follett AR-FA VA and Scholarships-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401e1368f43ce3a0c5474</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02894</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02893 FS-Excess Benefit-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401ffaffc39ce3a0c5074</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02893</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00005 FS-Medical Flexible Spending Account-AGY">
+            <wd:ID wd:type="WID">ba3babf78034016ccf35626b3a0c9943</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00005</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00004 FS-Dependent Care Flexible Spending Account-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401b2da9b586b3a0c9543</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00004</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02889 FS-Debt and Capital-RSV">
+            <wd:ID wd:type="WID">ba3babf7803401504e9b14ce3a0c4074</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02889</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02921 FS-UBIT Tax Payments-AGY">
+            <wd:ID wd:type="WID">ba3babf780340136ae84d2cf3a0cc074</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02921</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG02919 FS-Travel Card Unallowable Travel Expenses-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401293235c0cf3a0cb874</wd:ID>
+            <wd:ID wd:type="Program_ID">PG02919</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH075 Financial Services">
+            <wd:ID wd:type="WID">ba3babf7803401f39b4832cce70b3109</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH075</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH075</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0006</wd:referenceID>
+        <wd:code>CC0006</wd:code>
+        <wd:name>ABOR-Arizona Board of Regents</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07805 ABOR-Retirement Plan Adminis-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401b70221c6933b0c7bc4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07805</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00014 ABOR-Board of Regents-AGY">
+            <wd:ID wd:type="WID">ba3babf78034014eefcfae6b3a0cbd43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00014</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00013 ABOR-AZ Transfer Summit-AGY">
+            <wd:ID wd:type="WID">ba3babf78034015ded1ca66b3a0cb943</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00013</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07803 ABOR-KAPPA DELTA PI-AGY (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401404d23b0933b0c73c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07803</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00012 ABOR-Articulation Facilitator-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401a681399e6b3a0cb543</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00012</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00011 ABOR-Achieve 60 AZ-AGY">
+            <wd:ID wd:type="WID">ba3babf7803401366494956b3a0cb143</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00011</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11414 ABOR-Matched Savings Scholarship Program-AGY (inactive)">
+            <wd:ID wd:type="WID">e5f3a44286b601d5ebd9de360c2c62b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11414</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00018 ABOR-UA Presidential Search-AGY (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034015559d0d16b3a0ccd43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00018</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00017 ABOR-TRIF Innovation Fund-AGY">
+            <wd:ID wd:type="WID">ba3babf780340100e27ac96b3a0cc943</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00017</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13067 ABOR-PBC Executive Director-AGY">
+            <wd:ID wd:type="WID">d71a2657e5fe01348adfc05fc6007f59</wd:ID>
+            <wd:ID wd:type="Program_ID">PG13067</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH001 VP-AZ Board of Regents">
+            <wd:ID wd:type="WID">ba3babf7803401a0965871c9e70bae07</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH001</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH001</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0007</wd:referenceID>
+        <wd:code>CC0007</wd:code>
+        <wd:name>BDI-Administration</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06518 BDI-Equipment Reserve Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401a929ac6a5e3b0c63b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06518</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00061 BDI-Cheryl Selinsky-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401217b039f6d3a0c8744</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00061</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06517 BDI-Service Contracts Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340178c256605e3b0c5fb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06517</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06516 BDI-ROAD Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401ed63a7555e3b0c5bb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06516</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06515 BDI-Exec Director Equip Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401a14bc54a5e3b0c57b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06515</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06514 BDI-IDC Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d863923f5e3b0c53b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06514</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00182 BDI-Sudhir Kumar-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401f5e6cbbf713a0ca646</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00182</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00179 BDI-Stimulus Swap-RID">
+            <wd:ID wd:type="WID">ba3babf7803401f43836a7713a0c9946</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00179</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10245 BDI-Road-TRIF">
+            <wd:ID wd:type="WID">792d0cb4534201acd71a70b12ca2258a</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10245</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00176 BDI-SIF-Dalton Chair-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401cc28768e713a0c8c46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00176</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00109 BDI-Jieping Ye-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401c488b0366f3a0c5c45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00109</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0153 KED-Timothy Lant-IIA">
+            <wd:ID wd:type="WID">e5f3a44286b6019045edaa11ec2cb200</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0153</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00168 BDI-Securitas-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401ea7f434c713a0c6646</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00168</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00167 BDI-Securitas-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401679fc044713a0c6246</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00167</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00102 BDI-IT-LCL">
+            <wd:ID wd:type="WID">ba3babf78034013bcebcf96e3a0c3a45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00102</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00035 BDI-Administration-TRIF">
+            <wd:ID wd:type="WID">ba3babf78034015b26ee5c6c3a0c1244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00035</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00034 BDI-Administration-LCL">
+            <wd:ID wd:type="WID">ba3babf780340119c97a546c3a0c0e44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00034</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00033 BDI-Administration Stim Research-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401b737964c6c3a0c0a44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00033</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12842 BDI-Shared Research Facility-TRIF">
+            <wd:ID wd:type="WID">ee0d494e0c5e0182a53f5f9a5b092202</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12842</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00032 BDI-Administration Service Contract-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340135729e446c3a0c0644</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00032</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00031 BDI-Administration Research Royalties-LCL">
+            <wd:ID wd:type="WID">ba3babf780340110d3cc3c6c3a0c0244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00031</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00093 BDI-Faculty-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401737c6dab6e3a0c1345</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00093</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00157 BDI-Raymond Dubois-IIA">
+            <wd:ID wd:type="WID">ba3babf78034011e23fcf2703a0c3446</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00157</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00029 BDI-Administration IT-TRIF">
+            <wd:ID wd:type="WID">ba3babf780340176d45a2c6c3a0cfa43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00029</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00028 BDI-Administration Human Resources-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340158a451246c3a0cf643</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00028</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00027 BDI-Administration Facilities-TRIF">
+            <wd:ID wd:type="WID">ba3babf78034013b11761c6c3a0cf243</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00027</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00026 BDI-Administration Events-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401e76f93146c3a0cee43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00026</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00025 BDI-Administration Dubois Su Sala-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401ff3ddb0c6c3a0cea43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00025</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00024 BDI-Administration Directors Office-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401e64e56046c3a0ce643</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00024</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00023 BDI-Administration Director Stipend-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401f7ed42fc6b3a0ce243</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00023</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07764 RA Conversion Tempe Tuition Benefits-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340119e6fe0a923b0cdbc3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07764</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09719 BDI-Operations-Meldrum Reno-LCL">
+            <wd:ID wd:type="WID">7e77d2f47e1d015d468ee66e78182c0b</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09719</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00022 BDI-Administration Development-TRIF">
+            <wd:ID wd:type="WID">ba3babf780340106ac2bf46b3a0cde43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00022</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00021 BDI-Administration Communications-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401e44454eb6b3a0cda43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00021</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00085 BDI-DNASU Payback-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401202483656e3a0cef44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00085</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00020 BDI-Administration Center Administration-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d9d287e26b3a0cd643</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00020</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00145 BDI-Payroll Clearing Acct-LCL">
+            <wd:ID wd:type="WID">ba3babf780340175ca0b8b703a0cfd45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00145</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00142 BDI-Operations-RID">
+            <wd:ID wd:type="WID">ba3babf7803401990be871703a0cf045</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00142</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00077 BDI-Delgado Pacheco-IIA">
+            <wd:ID wd:type="WID">ba3babf78034017204c7216e3a0ccb44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00077</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG01229 BDI-Ananias Escalante-IIA">
+            <wd:ID wd:type="WID">ba3babf78034017d2f8f3c943a0ca158</wd:ID>
+            <wd:ID wd:type="Program_ID">PG01229</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00193 BDI-Wet Lab Reno-RID">
+            <wd:ID wd:type="WID">ba3babf7803401e9b5701d723a0cda46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00193</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00129 BDI-MarComm Poster Rev-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401c5cded05703a0cb945</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00129</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0008</wd:referenceID>
+        <wd:code>CC0008</wd:code>
+        <wd:name>BDI-Applied Structural Discovery</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12006 BDI-ASD Electron Energy Loss Spectroscopy Laser-NLT">
+            <wd:ID wd:type="WID">c7b70783a72801a536a8a0b19d1e9adb</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12006</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08184 NSC-William Graves Faculty Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401560f4539a53b0c33cb</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08184</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06511 BDI-William Graves Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034016b260a205e3b0c44b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06511</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06510 BDI-Debra Hansen Cost Share Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340185c5bd155e3b0c3fb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06510</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06509 BDI-Petra Fromme Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034012fcac40a5e3b0c3ab0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06509</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08882 BDI-Compact X-Ray Free Electron Laser Workshops-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401290d04e1c33b0c48d6</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08882</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00115 BDI-Justin Flory-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401653141906f3a0c7a45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00115</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00049 BDI-Cads Development Genetic-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401f1d65f3a6d3a0c5244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00049</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07918 BDI-Debra Hansen-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401d79a041a993b0c75c6</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07918</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0001 BDI-Po-Lin Chiu-IIA">
+            <wd:ID wd:type="WID">f61f58a7e0500124440cd877ae1bc770</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0001</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0327 BDI - Mark Holl - IIA">
+            <wd:ID wd:type="WID">ee0d494e0c5e01c7cbf73f275e09851b</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0327</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12734 BDI-Robert Kaindl Faculty Startup-NLT">
+            <wd:ID wd:type="WID">78dab1ea139201bbcdc3241d78444f61</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12734</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10766 BDI-ASD-CXFLS Laser Consultant-LCL">
+            <wd:ID wd:type="WID">6f2e00bada970151f7c94e5571be20d5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10766</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07764 RA Conversion Tempe Tuition Benefits-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340119e6fe0a923b0cdbc3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07764</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00150 BDI-Petra Fromme Faculty Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401c15af8b7703a0c1346</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00150</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08407 NSC-William Graves Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340127e4c0e2af3b0c79cf</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08407</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11185 BDI-KED-WEE-LWRKS-Synthetic Thylakoid-TRIF (inactive)">
+            <wd:ID wd:type="WID">4535c2cad6cf01464176f57ec2148efa</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11185</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10931 BDI-WEE-LWRKS-Adapting High-light Thriving AZ Cyanobacteriam-TRIF">
+            <wd:ID wd:type="WID">67ab8b4d8c56013d63f41de91e100d6a</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10931</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08713 NSC-ASU/Mayo Contrast Imaging Seed-KED">
+            <wd:ID wd:type="WID">ba3babf780340193481cb7bb3b0c9fd3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08713</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08712 NSC-Compact X-Ray Light Source-KED">
+            <wd:ID wd:type="WID">ba3babf7803401e84327abbb3b0c9bd3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08712</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07730 KED-CLXS Project-Graves-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401f50c8d5e913b0c9fc3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07730</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10265 BDI-ASD-CXFLS/CXFEL Startup-NLT">
+            <wd:ID wd:type="WID">ae300a9ad06b015ba32e4d3b01a52ea8</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10265</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07810 BDI-ASD Ana Egatz-Gomez Supplies Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340114371303943b0c92c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07810</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07809 BDI-ASD Ana Egatz-Gomez Salary-GOT">
+            <wd:ID wd:type="WID">ba3babf78034016aff35f8933b0c8dc4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07809</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07808 BDI-ASD Ana Egatz-Gomez Equip Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340187bb8feb933b0c88c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07808</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG05122 NSC-William Graves-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401aab7f85d273b0ceb99</wd:ID>
+            <wd:ID wd:type="Program_ID">PG05122</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0009</wd:referenceID>
+        <wd:code>CC0009</wd:code>
+        <wd:name>BDI-Bioelectronics and Biosensors</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0206 BDI-Di Wang -IIA">
+            <wd:ID wd:type="WID">e5f3a44286b601a90c6f8f15ec2cd201</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0206</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00094 BDI-Fang Chen-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401afabb1b36e3a0c1745</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00094</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00188 BDI-Tsing Tsow-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401aea65ef3713a0cc246</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00188</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG01541 BDI-Erica Forzani-IIA">
+            <wd:ID wd:type="WID">ba3babf78034015e52b5139f3a0c325e</wd:ID>
+            <wd:ID wd:type="Program_ID">PG01541</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00149 BDI-Peter Wiktor-IIA">
+            <wd:ID wd:type="WID">ba3babf78034014ff1f5af703a0c0e46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00149</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06504 BDI-Nongjian Tao Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340155c7f0d75d3b0c25b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06504</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07822 BDI-CIVV Mycolbacterium Ulcera-LCL">
+            <wd:ID wd:type="WID">ba3babf78034012fdef582943b0cc7c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07822</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07818 BDI-CIVV Shelley Haydel Discretionary-NLT">
+            <wd:ID wd:type="WID">ba3babf78034016891d455943b0cb3c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07818</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00043 BDI-BB Research-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401902a05046d3a0c3644</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00043</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00171 BDI-Shelley Haydel-IIA">
+            <wd:ID wd:type="WID">ba3babf78034011b684564713a0c7446</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00171</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00042 BDI-BB Research Royalties-LCL">
+            <wd:ID wd:type="WID">ba3babf78034015041dcfb6c3a0c3244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00042</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00138 BDI-Nongjian Tao-IIA">
+            <wd:ID wd:type="WID">ba3babf780340174381551703a0cdf45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00138</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00169 BDI-Shaopeng Wang-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401d10fcf53713a0c6a46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00169</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00070 BDI-Clay Sample Tests-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f4896ee86d3a0cad44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00070</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07811 BDI-BB Erica Forzani Plus Alliance-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f5b4090e943b0c97c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07811</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06522 BDI-Peter Wiktor Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d0a9d1955e3b0c76b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06522</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00194 BDI-Xiaojun Xian-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401b484ab25723a0cde46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00194</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0010</wd:referenceID>
+        <wd:code>CC0010</wd:code>
+        <wd:name>BDI-Bioenergetics</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00174 BDI-Sidney Hecht-IIA">
+            <wd:ID wd:type="WID">ba3babf780340154e5d27d713a0c8346</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00174</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06502 BDI-Sidney Hecht Cost Share Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d24833c35d3b0c1bb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06502</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00125 BDI-Larisa Dedkova-IIA">
+            <wd:ID wd:type="WID">ba3babf780340156fe7de36f3a0ca645</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00125</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11525 BDI-Bioenergetics-CS-NLT">
+            <wd:ID wd:type="WID">9406aad28c5701b4d6d7be6479151075</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11525</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06501 BDI-Sidney Hecht Ops Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401daad27b95d3b0c16b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06501</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00172 BDI-Shengxi Chen-IIA">
+            <wd:ID wd:type="WID">ba3babf78034018fa6d86c713a0c7946</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00172</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06500 BDI-Sidney Hecht Salary Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034014158efae5d3b0c11b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06500</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07813 BDI-BE Omar Khdour RFA-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401655bbd26943b0ca0c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07813</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00130 BDI-Marstiller Journal-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401e5c8db0d703a0cbd45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00130</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0011</wd:referenceID>
+        <wd:code>CC0011</wd:code>
+        <wd:name>BDI-Biosignatures Discovery Automation</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00173 BDI-Shih-Hui Chao-IIA">
+            <wd:ID wd:type="WID">ba3babf78034011ef94875713a0c7e46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00173</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00076 ENGR-Deirdre Meldrum-IIA">
+            <wd:ID wd:type="WID">ba3babf78034015836ea186e3a0cc644</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00076</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00091 ENGR-EG-RID">
+            <wd:ID wd:type="WID">ba3babf780340197135e9b6e3a0c0a45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00091</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06508 BDI-Bridge Support Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401510068005e3b0c36b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06508</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00019 BDI-Aaron Youngbull-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034016c62c5da6b3a0cd143</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00019</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06507 BDI-Neptune Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340158f627f65d3b0c32b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06507</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06506 BDI-EG Operations Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401577513ec5d3b0c2eb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06506</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06505 BDI-Personnel Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034017032e1e15d3b0c2ab0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06505</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00192 BDI-Weiwen Zhang-IIA">
+            <wd:ID wd:type="WID">ba3babf78034016c2d6415723a0cd546</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00192</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0012</wd:referenceID>
+        <wd:code>CC0012</wd:code>
+        <wd:name>BDI-Environmental Biotechnology</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07870 BDI-SIF Bio Hydrogen Project-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401ebf88fd2963b0caac5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07870</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07869 BDI-Shared HPLC-BSCEB-NLT">
+            <wd:ID wd:type="WID">ba3babf78034011839dbc6963b0ca6c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07869</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00123 BDI-Krajmalnik Brown Discretionary-LCL">
+            <wd:ID wd:type="WID">ba3babf78034019b90b8d16f3a0c9e45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00123</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06512 BDI-Bruce Rittmann Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034018398322a5e3b0c49b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06512</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00053 BDI-Cesar Torres-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401335fab5d6d3a0c6344</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00053</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00181 BDI-Student Support-RST">
+            <wd:ID wd:type="WID">ba3babf7803401422bc9b7713a0ca246</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00181</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10668 BDI-ASU-BGU-Aquatic Plant Nutrition-RID">
+            <wd:ID wd:type="WID">702eb6d6e8b001e2376a02e93bb5a8e9</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10668</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00170 BDI-Bruce Rittmann-IIA">
+            <wd:ID wd:type="WID">ba3babf780340142c3325c713a0c6f46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00170</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00038 BDI-Andrew Marcus-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401e352e2d86c3a0c1f44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00038</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00101 BDI-ISMET Conference-LCL">
+            <wd:ID wd:type="WID">ba3babf780340130a92bee6e3a0c3645</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00101</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12199 BDI-Anaerobic Biofilm Membrane Bioreactor-SIRF-LCL">
+            <wd:ID wd:type="WID">db083f9b01b2019080e58ac62f338386</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12199</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00036 BDI-Anca Delgado-IIA">
+            <wd:ID wd:type="WID">ba3babf78034012173e9c76c3a0c1644</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00036</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00162 BDI-Rosa Krajmalnik-Brown-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401b498191c713a0c4b46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00162</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07840 BDI-EB Microbiome Subsidy-IDC">
+            <wd:ID wd:type="WID">ba3babf780340152b93352953b0c1cc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07840</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00160 BDI-Rittman Plus Alliance-NLT">
+            <wd:ID wd:type="WID">ba3babf78034016b96310b713a0c4246</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00160</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07839 BDI-EB Microbiome Facility-RCHG">
+            <wd:ID wd:type="WID">ba3babf78034010ed54747953b0c18c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07839</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0298 BDI - Joshua Boltz - IIA">
+            <wd:ID wd:type="WID">78dab1ea13920140e5b8893462449295</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0298</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0263 BDI-Chen Zhou-IIA">
+            <wd:ID wd:type="WID">f624766d3f9c01cb625a9580a2316044</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0263</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07768 TA Conversion Tempe Tuition Benefits-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034011526c736923b0cebc3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07768</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12871 BDI-WEE-LWRKS Lignocellulose Degradation SF&amp;P-TRIF">
+            <wd:ID wd:type="WID">1bd32a56b86501cbee134b49e912e249</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12871</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00154 BDI-PT of Algal Biomass-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401bfb741da703a0c2646</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00154</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00089 BDI-EB Research-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401e2bcec896e3a0c0245</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00089</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00152 BDI-Prathap Parameswaran-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401b94ea7c9703a0c1d46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00152</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07764 RA Conversion Tempe Tuition Benefits-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340119e6fe0a923b0cdbc3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07764</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12828 BDI-EB DNA Sequencing-LCL">
+            <wd:ID wd:type="WID">bffc87f3c91401954ad8d73a1808538e</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12828</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12362 BDI-DOE Membrane Carbonation-GOA-CS">
+            <wd:ID wd:type="WID">5f1130de6af801f93a7d86507937138e</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12362</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00196 BDI-Yen-Jung Lai-IIA">
+            <wd:ID wd:type="WID">ba3babf78034014d355e36723a0ce846</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00196</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07871 BDI-SIF Bio Hydrogen Project-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401bac373dd963b0caec5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07871</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10857 Math Modeling Workshop May 2019-LCL">
+            <wd:ID wd:type="WID">c2205730c18601dc0152b1dc3706f5b7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10857</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0013</wd:referenceID>
+        <wd:code>CC0013</wd:code>
+        <wd:name>BDI-Environmental Health Engineering</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00095 BDI-Halden Discretionary-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401460916bc6e3a0c1c45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00095</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13064 BDI-EHE Kerry Hamilton-RID">
+            <wd:ID wd:type="WID">cd104882295c0141b8cbaff3ef012c2a</wd:ID>
+            <wd:ID wd:type="Program_ID">PG13064</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0029 BDI-Enhancing global health security-KED">
+            <wd:ID wd:type="WID">ae300a9ad06b011a4bb93d63a2a43d9c</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0029</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07850 BDI-MALDI-RCHG">
+            <wd:ID wd:type="WID">ba3babf7803401baa28dc7953b0c4cc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07850</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00041 BDI-Arjunkrishna Venkatesan-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401eb42acf36c3a0c2d44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00041</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00166 BDI-Scotch PLUS Alliance-NLT">
+            <wd:ID wd:type="WID">ba3babf78034015ab6c03c713a0c5e46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00166</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07845 BDI-Rolf Halden Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401e6da1f8a953b0c32c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07845</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09370 BDI-Residual: Rolf Halden-FPR">
+            <wd:ID wd:type="WID">ba3babf7803401d3cd02aed93b0c06de</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09370</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00131 BDI-Mass Spec Support-RID">
+            <wd:ID wd:type="WID">ba3babf7803401063c3516703a0cc145</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00131</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09369 BDI-Residual: Nongjian Tao-FPR">
+            <wd:ID wd:type="WID">ba3babf78034019f2595a2d93b0c01de</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09369</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07841 BDI-ES MASS SPEC-RCHG">
+            <wd:ID wd:type="WID">ba3babf78034015693375d953b0c20c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07841</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00161 BDI-Rolf Halden-IIA">
+            <wd:ID wd:type="WID">ba3babf780340117569413713a0c4646</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00161</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0289 BDI-Kerry Hamilton-IIA">
+            <wd:ID wd:type="WID">eb6a7dc37eae010aa133f36d78439a40</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0289</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0014</wd:referenceID>
+        <wd:code>CC0014</wd:code>
+        <wd:name>BDI-Fundamental and Applied Microbiomics</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12224 BDI-LBNL Collaborator Support-LCL">
+            <wd:ID wd:type="WID">db083f9b01b2017ff7aa6e3c1a34337c</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12224</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0204 BDI-Arvind Varsani-IIA">
+            <wd:ID wd:type="WID">e5f3a44286b601d0b85c6b15ec2cc801</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0204</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00060 BDI-Cheryl Nickerson-RID">
+            <wd:ID wd:type="WID">ba3babf78034015b4052966d3a0c8244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00060</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00059 BDI-Cheryl Nickerson-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401ecfc1b8e6d3a0c7d44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00059</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12005 BDI-FAM Zeiss LSM 880 Confocal Miscroscope-NLT">
+            <wd:ID wd:type="WID">c7b70783a72801114f06165b9d1e3eda</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12005</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00055 BDI-CFAM-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401f2beee6d6d3a0c6c44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00055</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00054 BDI-CFAM Microbiome Center-LCL">
+            <wd:ID wd:type="WID">ba3babf78034012114e6656d3a0c6844</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00054</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12192 BDI-Abhishek Shrivastava Startup-GOT">
+            <wd:ID wd:type="WID">f624766d3f9c01cb9221c1f706314d68</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12192</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12191 BDI-Abhishek Shrivastava Startup-NLT">
+            <wd:ID wd:type="WID">f624766d3f9c0175eca9a5de06313568</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12191</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09083 BDI-Efrem Lim-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401be79179ecc3b0c5ad9</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09083</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07849 BDI-Efrem Lim Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d17edfbb953b0c47c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07849</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00105 BDI-Jennifer Barrila-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401bef73a136f3a0c4845</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00105</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07848 BDI-Efrem Lim Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf78034011f2926b0953b0c42c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07848</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07815 BDI-CFAM Arvind Varsani Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf780340191b6e231943b0ca5c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07815</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07843 BDI-FAM Ferran Garcia-Pichel-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401494af073953b0c29c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07843</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00067 BDI-CIDV-RID">
+            <wd:ID wd:type="WID">ba3babf78034013da15ed06d3a0ca144</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00067</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07842 BDI-FAM Arvind Varsani-NLT">
+            <wd:ID wd:type="WID">ba3babf78034015cdc7d68953b0c24c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07842</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0015</wd:referenceID>
+        <wd:code>CC0015</wd:code>
+        <wd:name>BDI-Immunotherapy Vaccines and Virotherapy</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00191 BDI-Wei Kong-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401474d650c723a0cd046</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00191</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00189 ENGR-Vijay Vittal-IIA">
+            <wd:ID wd:type="WID">ba3babf78034018b1cb7fb713a0cc746</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00189</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00187 BDI-Tsafrir Leket-Mor-IIA">
+            <wd:ID wd:type="WID">ba3babf780340151ace0ea713a0cbd46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00187</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00122 BDI-Kenneth Roland-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401c94446c96f3a0c9945</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00122</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00058 BDI-Chen CLAS KED Retention-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401e83443866d3a0c7944</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00058</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00186 BDI-Tsafrir Leket-Mor-RID">
+            <wd:ID wd:type="WID">ba3babf7803401bd0076e0713a0cb846</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00186</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00057 BDI-Chang FACS-RCHG">
+            <wd:ID wd:type="WID">ba3babf780340188c1847e6d3a0c7544</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00057</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00120 BDI-KED-Catalyst Award B Jacobs-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401168eeab86f3a0c9145</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00120</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00118 NSC-KED Catalyst Award H Mason-LCL">
+            <wd:ID wd:type="WID">ba3babf780340165f1eda86f3a0c8945</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00118</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11330 BDI-CIVV Leket-Mor Discretionary-NLT">
+            <wd:ID wd:type="WID">6f0cd01f6f1e0126a329137cbc2389d9</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11330</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13052 BDI-CIVV-I Hogue Revenue Events-LCL">
+            <wd:ID wd:type="WID">06b7793f2ee0013e6d40a09dcf00c589</wd:ID>
+            <wd:ID wd:type="Program_ID">PG13052</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00117 BDI-Karen Kibler-IIA">
+            <wd:ID wd:type="WID">ba3babf78034015a4c0ca16f3a0c8445</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00117</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00113 BDI-Josephine Clark-Curtiss-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401c57f657f6f3a0c7045</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00113</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00048 BDI-Brenda Hogue-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401c94f06326d3a0c4d44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00048</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00111 BDI-Joseph Blattman-IIA">
+            <wd:ID wd:type="WID">ba3babf780340161a7db486f3a0c6645</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00111</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00044 BDI-Bertram Jacobs-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401a4471e0e6d3a0c3a44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00044</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11524 BDI-GEMNEO Royalties-LCL">
+            <wd:ID wd:type="WID">9406aad28c570153709716ff7615c25c</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11524</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06499 BDI-Douglas McFadden Core Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401ee2774a45d3b0c0cb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06499</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06498 BDI-Douglas McFadden Ops Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034010747119a5d3b0c07b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06498</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00106 BDI-Jennifer Glick-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401a2bd721b6f3a0c4d45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00106</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06497 BDI-Qiang Chen Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034019d5025905d3b0c02b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06497</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09145 BDI - Nancy Villa - IIA">
+            <wd:ID wd:type="WID">ba3babf78034012ce4bc63cf3b0c81da</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09145</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07847 BDI-Ian Hogue-NLT">
+            <wd:ID wd:type="WID">ba3babf780340108e784a3953b0c3cc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07847</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06496 BDI-Wei Kong Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034013c0692855d3b0cfdaf</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06496</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00104 BDI-Jeffrey Langland-IIA">
+            <wd:ID wd:type="WID">ba3babf78034014dade90a6f3a0c4345</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00104</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00103 BDI-Jagdev Sharma-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034018fff70026f3a0c3e45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00103</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07846 BDI-Ian Hogue-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401ab8eb295953b0c37c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07846</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06495 BDI-Ken Roland Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401b20b117b5d3b0cf8af</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06495</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09142 BDI - Masmudur Rahman - IIA">
+            <wd:ID wd:type="WID">ba3babf7803401d9354c40cf3b0c72da</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09142</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06494 BDI-Kuroiler Project Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034010d91e4705d3b0cf4af</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06494</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00098 NSC-Hugh Mason-RID">
+            <wd:ID wd:type="WID">ba3babf7803401112aadd56e3a0c2945</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00098</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00156 BDI-Qingke Kong-IIA">
+            <wd:ID wd:type="WID">ba3babf78034010b08e6ea703a0c2f46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00156</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00155 BDI-Qiang Chen-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401e27588e2703a0c2a46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00155</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0137 BDI-Ian Hogue-IIA">
+            <wd:ID wd:type="WID">e5f3a44286b60171016f7310ec2c6100</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0137</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10763 BDI-CIVV-GEMNEO-LCL">
+            <wd:ID wd:type="WID">6f2e00bada9701a8b8566a196cbe3494</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10763</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00087 BDI-Douglas Mcfadden-IIA">
+            <wd:ID wd:type="WID">ba3babf78034010a2c3e776e3a0cf844</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00087</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10638 BDI-Catalyst Award Yung Chang-LCL">
+            <wd:ID wd:type="WID">2aacb7974a7001dc0e9f1b564bb11cfc</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10638</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00083 BDI-Discretionary Operations-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401e06c48546e3a0ce744</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00083</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07821 BDI-CIVV Jeffery Langland Discretionary-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f6250278943b0cc2c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07821</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07820 BDI-CIVV Karen Kibler Discretionary-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401983b296c943b0cbdc4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07820</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07819 BDI-CIVV Bertram Jacobs Discretionary-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401f2160461943b0cb8c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07819</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07817 BDI-CIVV Charles Arntzen Discretionary-LCL">
+            <wd:ID wd:type="WID">ba3babf78034015f746749943b0caec4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07817</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00137 BDI-Nelson Presidential Chair-ES">
+            <wd:ID wd:type="WID">ba3babf7803401cd53ee47703a0cdb45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00137</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07816 BDI-CIDV BIACORE T100-RCHG">
+            <wd:ID wd:type="WID">ba3babf780340155000b3d943b0caac4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07816</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07812 KED-Biocore Bioimaging Core-RCHG">
+            <wd:ID wd:type="WID">ba3babf780340141b7251a943b0c9cc4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07812</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00068 BDI-CIDV-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034018f1176d86d3a0ca544</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00068</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09368 BDI-CIVV Blattman Discretionary-NLT">
+            <wd:ID wd:type="WID">ba3babf780340170074f97d93b0cfddd</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09368</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00066 BDI-CIDV Structural Dynamics-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401839a65c86d3a0c9d44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00066</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00065 BDI-CIDV Solving Structure-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401cd6539c06d3a0c9944</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00065</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00064 BDI-CIDV Seed Gleevec CXML-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034015e6d34b86d3a0c9544</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00064</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0017</wd:referenceID>
+        <wd:code>CC0017</wd:code>
+        <wd:name>BDI-Inflammation Cancer</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0018</wd:referenceID>
+        <wd:code>CC0018</wd:code>
+        <wd:name>BDI-Innovations in Medicine</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00062 BDI-Chris Diehnelt-IIA">
+            <wd:ID wd:type="WID">ba3babf78034017fe3dba76d3a0c8c44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00062</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00090 BDI-Ebola Project-NLT">
+            <wd:ID wd:type="WID">ba3babf780340175b67d936e3a0c0645</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00090</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06513 BDI-Stephen Johnston Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340185f779345e3b0c4eb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06513</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00121 BDI-KED-Catalyst Award S Johnston-LCL">
+            <wd:ID wd:type="WID">ba3babf78034019b8fe2c06f3a0c9545</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00121</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00151 BDI-Phillip Stafford-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401684eb1c0703a0c1846</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00151</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00119 BDI-KED Support Reserve-RID">
+            <wd:ID wd:type="WID">ba3babf7803401e097f6b06f3a0c8d45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00119</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00148 BDI-Peptide Microarray-Internal-RCHG">
+            <wd:ID wd:type="WID">ba3babf7803401c3e323a7703a0c0a46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00148</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00147 BDI-Peptide Microarray-External-RCHG">
+            <wd:ID wd:type="WID">ba3babf7803401a5c3cf9e703a0c0646</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00147</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00178 BDI-Stephen Johnston-IIA">
+            <wd:ID wd:type="WID">ba3babf780340114232c9f713a0c9446</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00178</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00112 BDI-Joseph Legutki-IIA">
+            <wd:ID wd:type="WID">ba3babf780340188b313776f3a0c6b45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00112</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00079 BDI-Development of Ebola-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401ebbdca316e3a0cd444</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00079</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00078 BDI-Depreciation-RSV">
+            <wd:ID wd:type="WID">ba3babf7803401bdb5e9296e3a0cd044</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00078</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00045 BDI-BON Research-LCL">
+            <wd:ID wd:type="WID">ba3babf78034015d3f7c166d3a0c3f44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00045</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00040 BDI-Antibody Core-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401226faaea6c3a0c2944</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00040</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00136 BDI-Neal Woodbury-IIA">
+            <wd:ID wd:type="WID">ba3babf78034016dfc2d3f703a0cd545</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00136</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00198 BDI-Zhan-Gong Zhao-IIA">
+            <wd:ID wd:type="WID">ba3babf780340165e82c47723a0cf246</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00198</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07844 BDI-Foundry-IDC">
+            <wd:ID wd:type="WID">ba3babf78034013968e17e953b0c2ec5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07844</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00100 BDI-IM-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340111a0ffe56e3a0c3245</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00100</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07875 BDI-TT Catalyst Awd Rolf Halden-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401c35f380a973b0cbec5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07875</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00099 BDI-IM Research-LCL">
+            <wd:ID wd:type="WID">ba3babf78034015911f9dd6e3a0c2e45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00099</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00163 BDI-Royalties-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401befb2324713a0c5046</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00163</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12936 BDI-ReMission Alliance Funding-LCL">
+            <wd:ID wd:type="WID">8ac6bc67b9550129102c814d561dd958</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12936</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0019</wd:referenceID>
+        <wd:code>CC0019</wd:code>
+        <wd:name>BDI-Molecular Biomarkers</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00142 BDI-Operations-RID">
+            <wd:ID wd:type="WID">ba3babf7803401990be871703a0cf045</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00142</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00141 BDI-Operations-LCL">
+            <wd:ID wd:type="WID">ba3babf780340124b0a869703a0cec45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00141</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00140 BDI-Operations-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401be888161703a0ce845</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00140</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00134 BDI-Molecular Biomarkers Bridge Funding-TRIF (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034015895a02e703a0ccd45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00134</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00086 BDI-Dobrin Nedelkov-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034018114a26d6e3a0cf344</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00086</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0020</wd:referenceID>
+        <wd:code>CC0020</wd:code>
+        <wd:name>BDI-Molecular Design and Biomimetics</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07868 BDI-BSS Carlo Maley Iseec-LCL">
+            <wd:ID wd:type="WID">ba3babf780340127639cbb963b0ca1c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07868</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0091 BDI - Rizal Hariadi - IIA">
+            <wd:ID wd:type="WID">e6c5a98a3aec017f454c5343c01f76d6</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0091</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13102 BDI-Residual: MDB Nicholas Stephanopoulos-FPR">
+            <wd:ID wd:type="WID">5ddbd9ba3bd6013ed65ebd660d01558d</wd:ID>
+            <wd:ID wd:type="Program_ID">PG13102</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07859 BDI-MDB Nicholas Stephanopoulos Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401ee754433963b0c77c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07859</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07858 BDI-MDB Nicholas Stephanopoulos Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401a6df0f28963b0c72c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07858</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07857 BDI-MDB Jeremy Mills Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034016305c21c963b0c6dc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07857</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07856 BDI-MDB Jeremy Mills Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf780340118fd160e963b0c68c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07856</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07855 BDI-MDB Rizal Hariadi Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034010b2a8e02963b0c63c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07855</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07854 BDI-MDB Rizal Hariadi Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf78034013f7d8cf7953b0c5ec5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07854</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06503 BDI-Hao Yan Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034018dddcbcd5d3b0c20b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06503</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07853 BDI-MDB Alexander Green Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034011199d0eb953b0c59c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07853</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07852 BDI-MDB Alexander Green Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf78034016a4174e0953b0c54c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07852</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07851 BDI-MDB Confocal Microscopy-RCHG">
+            <wd:ID wd:type="WID">ba3babf7803401134fb0d3953b0c50c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07851</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00107 BDI-Jeremy Mills-IIA">
+            <wd:ID wd:type="WID">ba3babf780340134e649246f3a0c5245</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00107</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0299 BDI - Petr Sulc - IIA">
+            <wd:ID wd:type="WID">78dab1ea139201cfb2662188654408af</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0299</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04434 NSC-Alexander Green-IIA">
+            <wd:ID wd:type="WID">ba3babf780340136b5aee90a3b0cbc8d</wd:ID>
+            <wd:ID wd:type="Program_ID">PG04434</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00153 BDI-PSIF-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f6c72dd2703a0c2246</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00153</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10638 BDI-Catalyst Award Yung Chang-LCL">
+            <wd:ID wd:type="WID">2aacb7974a7001dc0e9f1b564bb11cfc</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10638</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04880 BDI-Nicholas Stephanopoulos-IIA">
+            <wd:ID wd:type="WID">ba3babf78034019cdf0c4a1d3b0ca395</wd:ID>
+            <wd:ID wd:type="Program_ID">PG04880</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00074 BDI-DCU ASU Collaboration-RID">
+            <wd:ID wd:type="WID">ba3babf7803401fb5c99076e3a0cbe44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00074</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08972 BDI-MDB Petr Sulc Faculty Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf78034014bbe5ae3c73b0cb4d7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08972</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04673 BDI-Hao Yan-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401ea6eb9f7143b0ce191</wd:ID>
+            <wd:ID wd:type="Program_ID">PG04673</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08971 BDI-MDB Petr Sulc Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034011d6d16d7c73b0cb0d7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08971</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00071 BDI-CMDB Yan Startup-TRIF">
+            <wd:ID wd:type="WID">ba3babf780340175b51df06d3a0cb144</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00071</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG05127 BDI-Yan Liu-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401a538b892273b0c049a</wd:ID>
+            <wd:ID wd:type="Program_ID">PG05127</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00069 BDI-CLAS Biomimicry-RID">
+            <wd:ID wd:type="WID">ba3babf7803401a6fa66e06d3a0ca944</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00069</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00197 NSC-Yung Chang-IIA">
+            <wd:ID wd:type="WID">ba3babf78034012ae0e33e723a0ced46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00197</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00133 BDI-MDB Research Royalties-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f3b24626703a0cc945</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00133</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07872 BDI-SIF Biomimetic and Bioinspired Engineering Center-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401cc6743e8963b0cb2c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07872</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0021</wd:referenceID>
+        <wd:code>CC0021</wd:code>
+        <wd:name>BDI-Neurodegenerative Disease</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00126 BDI-Lih-Fen Lue-IIA">
+            <wd:ID wd:type="WID">ba3babf78034015a1fe7eb6f3a0cab45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00126</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09725 BDI-NDRC Oddo Startup-NLT">
+            <wd:ID wd:type="WID">7e77d2f47e1d0181de30426f7818490b</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09725</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00092 BDI-Eric Reiman-IIA">
+            <wd:ID wd:type="WID">ba3babf780340119ee3ea36e3a0c0e45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00092</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07867 BDI-NDRC Salvatore Oddo Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d4543fb0963b0c9cc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07867</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07866 BDI-NDRC Salvatore Oddo Startup-GOT">
+            <wd:ID wd:type="WID">ba3babf780340132c277a4963b0c97c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07866</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07865 BDI-NDRC Diego Mastroeni Siwa-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401952f1498963b0c92c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07865</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07864 BDI-NDRC Diego Mastroeni Exeter-LCL">
+            <wd:ID wd:type="WID">ba3babf78034014a12fb8c963b0c8dc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07864</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00185 BDI-Travis Dunckley-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401cde2dfd7713a0cb346</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00185</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00088 BDI-Douglas Walker-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401d37f39816e3a0cfd44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00088</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07863 BDI-NDRC Antonella Caccamo-RID">
+            <wd:ID wd:type="WID">ba3babf7803401c8f8e881963b0c88c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07863</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07862 BDI-NDRC ASU-BGU LUE Walker-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401c6a39776963b0c84c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07862</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00082 BDI-Diego Mastroeni-RID">
+            <wd:ID wd:type="WID">ba3babf78034012c04dd4b6e3a0ce244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00082</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00081 BDI-Diego Mastroeni-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401bb687c436e3a0cdd44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00081</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00144 BDI-Paul Coleman-IIA">
+            <wd:ID wd:type="WID">ba3babf780340166d5c181703a0cf845</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00144</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00047 BDI-Boris DeCourt-RID">
+            <wd:ID wd:type="WID">ba3babf7803401d3835f296d3a0c4844</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00047</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00046 BDI-Boris DeCourt-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401f34fac1f6d3a0c4344</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00046</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08974 BDI-Salvatore Oddo IGPN Symposium-NLT">
+            <wd:ID wd:type="WID">ba3babf78034012ef236fbc73b0cbcd7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08974</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08973 BDI-NDRC Joel Dudley Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401c5fb23efc73b0cb8d7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08973</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00135 BDI-NDRC Salary-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401d63eca36703a0cd145</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00135</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0183 BDI-Benjamin Readhead-IIA">
+            <wd:ID wd:type="WID">e5f3a44286b601df3e5dcf13ec2c4c01</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0183</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00165 BDI-Salvatore Oddo-RID">
+            <wd:ID wd:type="WID">ba3babf780340108a27734713a0c5946</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00165</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00164 BDI-Salvatore Oddo-IIA">
+            <wd:ID wd:type="WID">ba3babf780340183b94c2c713a0c5446</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00164</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0372 BDI - Ramon Velazquez - IIA">
+            <wd:ID wd:type="WID">e2b7bccc420d011dcc891c4fdd21ecab</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0372</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07807 BDI-Antonella Caccamo-IIA (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401d63102de933b0c83c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07807</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0022</wd:referenceID>
+        <wd:code>CC0022</wd:code>
+        <wd:name>BDI-Pathfinder Center</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00175 BDI-SIF Applications for Wearable Biosensors-Honeybee-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401f6344286713a0c8846</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00175</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG11416 BDI-Microcredit Course-LCL">
+            <wd:ID wd:type="WID">e5f3a44286b601ff6c9ab935132c4df9</wd:ID>
+            <wd:ID wd:type="Program_ID">PG11416</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00139 BDI-Operations-GOT">
+            <wd:ID wd:type="WID">ba3babf780340164bba559703a0ce445</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00139</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00039 BDI-Annie Hale-IIA">
+            <wd:ID wd:type="WID">ba3babf780340187a351e26c3a0c2444</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00039</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00183 BDI-Sustainable Science Curriculum-NLT">
+            <wd:ID wd:type="WID">ba3babf780340134c7bfc7713a0cab46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00183</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00084 BDI-Discretionary-LCL">
+            <wd:ID wd:type="WID">ba3babf78034016da6565c6e3a0ceb44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00084</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07873 BDI-SIF Center for Sustainable Health-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401d4baaaf3963b0cb6c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07873</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG05267 BDI-Leland Hartwell-IIA">
+            <wd:ID wd:type="WID">ba3babf78034012f6d45502d3b0c479c</wd:ID>
+            <wd:ID wd:type="Program_ID">PG05267</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00096 BDI-Hartwell Education Funds-GOT">
+            <wd:ID wd:type="WID">ba3babf7803401a3be7ec46e3a0c2045</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00096</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>CC0023</wd:referenceID>
+        <wd:code>CC0023</wd:code>
+        <wd:name>BDI-Personalized Diagnostics</wd:name>
+        <wd:Inactive>0</wd:Inactive>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99997 TA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401eab40880e23b0c02e1</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99997</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG99994 RA Tuition Benefits-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401d7932c73e23b0cfee0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG99994</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00124 BDI-LaBaer Journal-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401ea49f2d96f3a0ca245</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00124</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00116 BDI-Karen Anderson-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401e3e377986f3a0c7f45</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00116</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00114 BDI-Joshua LaBaer-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401f8abad876f3a0c7545</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00114</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08879 KED-Li Bioinformatics Support-RCHG">
+            <wd:ID wd:type="WID">ba3babf7803401f7bb26bec33b0c3ad6</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08879</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08878 BDI-Park Bioinformatics Support-RCHG">
+            <wd:ID wd:type="WID">ba3babf780340109f08bb1c33b0c36d6</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08878</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00110 BDI-John Chaput-IIA">
+            <wd:ID wd:type="WID">ba3babf780340139a05a3f6f3a0c6145</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00110</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00108 BDI-Ji Qiu-IIA">
+            <wd:ID wd:type="WID">ba3babf78034010ccff22c6f3a0c5745</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00108</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09128 BDI-Jia Fan-IIA">
+            <wd:ID wd:type="WID">ba3babf780340174aad693ce3b0c2cda</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09128</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07764 RA Conversion Tempe Tuition Benefits-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf780340119e6fe0a923b0cdbc3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07764</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG04687 BDI-Wade Van Horn-IIA">
+            <wd:ID wd:type="WID">ba3babf78034012f28c37d153b0c1f92</wd:ID>
+            <wd:ID wd:type="Program_ID">PG04687</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00080 BDI-Dewey Magee-IIA">
+            <wd:ID wd:type="WID">ba3babf780340168dd893a6e3a0cd844</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00080</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0033 BDI-CPD/Chad Borges ASU-BGU Glycan-KED">
+            <wd:ID wd:type="WID">f3b34319b4de01e1005c6096fea8d417</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0033</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00075 BDI-DCU ASU-RID">
+            <wd:ID wd:type="WID">ba3babf780340127e3aa0f6e3a0cc244</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00075</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00072 BDI-Cod Research Operation-TRIF">
+            <wd:ID wd:type="WID">ba3babf780340188bcf6f76d3a0cb544</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00072</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08970 BDI-CPD Tony Hu Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401bcdbb8cac73b0cacd7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08970</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10623 BDI-Ye Hu FURI-PT">
+            <wd:ID wd:type="WID">2aacb7974a7001590e85a4fa37b1a62d</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10623</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG09768 BDI-Residual: Joshua LaBaer-FPR">
+            <wd:ID wd:type="WID">7e77d2f47e1d0138dfa2ce717818fc0b</wd:ID>
+            <wd:ID wd:type="Program_ID">PG09768</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG08969 BDI-Center for Personalized Diagnostics/Tony Hu-RID">
+            <wd:ID wd:type="WID">ba3babf7803401f3414fbec73b0ca8d7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08969</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00195 BDI-Ye Hu-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401819a012e723a0ce346</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00195</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06521 BDI-Alexandra Lucas Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401edaa608b5e3b0c71b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06521</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06520 BDI-Wade Van Horn Cost Share Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf780340110b0cf805e3b0c6cb0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06520</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06519 BDI-Joshua LaBaer Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034017e379e755e3b0c67b0</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06519</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00190 BDI-Wallstrom Labshare-LCL">
+            <wd:ID wd:type="WID">ba3babf78034018f711804723a0ccc46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00190</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00056 BDI-Chad Borges-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401f2e313766d3a0c7044</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00056</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00052 BDI-Cartwright Discretionary-ES">
+            <wd:ID wd:type="WID">ba3babf7803401e73eeb556d3a0c5f44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00052</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00051 BDI-Cartwright Barn-LCL">
+            <wd:ID wd:type="WID">ba3babf780340158f2464c6d3a0c5b44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00051</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00050 BDI-Carlo Maley-RID">
+            <wd:ID wd:type="WID">ba3babf7803401d24cc5426d3a0c5644</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00050</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG13058 BDI-CPD Jewel Samadder Startup-NLT">
+            <wd:ID wd:type="WID">cd104882295c01b1894f68cb6401fa6f</wd:ID>
+            <wd:ID wd:type="Program_ID">PG13058</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG10601 BDI-Yunro Chung Faculty Startup-NLT">
+            <wd:ID wd:type="WID">3b15b12286910101c36e8963f2ac22c3</wd:ID>
+            <wd:ID wd:type="Program_ID">PG10601</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07981 BDI-Jin Park-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401b7295ae19b3b0c73c7</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07981</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12151 BDI-Cartwright Lab-Abigail Howell Awards-LCL">
+            <wd:ID wd:type="WID">1cff8f645619017fe20016dd1c2d8458</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12151</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00037 BDI-Anderson Lab Operations-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401017236d06c3a0c1b44</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00037</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG06493 BDI-Li Liu Informatics Faculty Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf78034015fae60665d3b0cefaf</wd:ID>
+            <wd:ID wd:type="Program_ID">PG06493</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG12843 BDI-CPD Joshua LaBaer Labshare-LCL">
+            <wd:ID wd:type="WID">ee0d494e0c5e0103c69880345d098610</wd:ID>
+            <wd:ID wd:type="Program_ID">PG12843</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00159 BDI-Research-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401a5f0fa02713a0c3e46</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00159</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07838 BDI-CPD Wade Van Horn Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401561ad63b953b0c13c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07838</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00158 BDI-Reed Cartwright-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401c48eeefa703a0c3946</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00158</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07837 BDI-CPD PISMD Repository DNA Seq-RCHG">
+            <wd:ID wd:type="WID">ba3babf780340162549e30953b0c0fc5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07837</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00030 BDI-Administration Research Administration Team-TRIF">
+            <wd:ID wd:type="WID">ba3babf7803401d4bb12346c3a0cfe43</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00030</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07836 BDI-CPD Jin Park Labshare-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401f1d47825953b0c0ac5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07836</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07835 BDI-CPD NAPPA Recharge-RCHG">
+            <wd:ID wd:type="WID">ba3babf78034011c854d1a953b0c06c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07835</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07834 BDI-CPD Marco Mangone Startup-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401ed2c1a0e953b0c01c5</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07834</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07831 BDI-CPD Li Bioinformatics Support-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034010c598cea943b0cf3c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07831</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07830 BDI-CPD Joshua Labaer Sustainability-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401034b88df943b0ceec4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07830</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07829 BDI-CPD Joshua Labaer Immuno Phenotyping-LCL (inactive)">
+            <wd:ID wd:type="WID">ba3babf7803401c00193d3943b0ce9c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07829</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07828 BDI-CPD Joshua Labaer ASU-BGU-NLT (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034018be008c7943b0ce4c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07828</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07827 BDI-Ye Hu Travel-Moving-NLT">
+            <wd:ID wd:type="WID">ba3babf7803401743fa3bb943b0cdfc4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07827</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07826 BDI-Ye Hu Operations-NLT">
+            <wd:ID wd:type="WID">ba3babf780340128ec47b0943b0cdac4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07826</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07825 BDI-Ye Hu Startup Personnel-NLT">
+            <wd:ID wd:type="WID">ba3babf78034012333dca4943b0cd5c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07825</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG07824 BDI-Ye Hu Startup Personnel-GOT">
+            <wd:ID wd:type="WID">ba3babf78034017988d899943b0cd0c4</wd:ID>
+            <wd:ID wd:type="Program_ID">PG07824</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PGK0224 BDI-Vel Murugan-IIA">
+            <wd:ID wd:type="WID">2b82b37906c901c265559910ea17b714</wd:ID>
+            <wd:ID wd:type="Program_ID">PGK0224</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00132 BDI-MBE Editor-LCL">
+            <wd:ID wd:type="WID">ba3babf7803401270e4b1e703a0cc545</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00132</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Allowed_Related_Worktags_by_Type wd:Descriptor="PG00128 BDI-Marco Mangone-IIA">
+            <wd:ID wd:type="WID">ba3babf7803401c4c724fd6f3a0cb445</wd:ID>
+            <wd:ID wd:type="Program_ID">PG00128</wd:ID>
+        </wd:Allowed_Related_Worktags_by_Type>
+        <wd:Included_by_Organizations wd:Descriptor="CCH091 Biodesign Institute">
+            <wd:ID wd:type="WID">ba3babf780340103e6e567cbe70baa08</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">CCH091</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">CCH091</wd:ID>
+        </wd:Included_by_Organizations>
+    </wd:Report_Entry>
+</wd:Report_Data>

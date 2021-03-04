@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wd:Report_Data
+    xmlns:wd="urn:com.workday/bsvc">
+    <wd:Report_Entry>
+        <wd:referenceID>PG08317</wd:referenceID>
+        <wd:Program_ID wd:Descriptor="PG08317">
+            <wd:ID wd:type="WID">ba3babf78034019282a58fab3b0cbbcd</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08317</wd:ID>
+        </wd:Program_ID>
+        <wd:Academic_Employee wd:Descriptor="E00821 Ju - F5729">
+            <wd:ID wd:type="WID">ba3babf7803401d7aeb07926f90bea26</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00821</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00821</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Ju - F5729</wd:name>
+            <wd:Emp_referenceID>E00821</wd:Emp_referenceID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>PG08318</wd:referenceID>
+        <wd:Program_ID wd:Descriptor="PG08318 (inactive)">
+            <wd:ID wd:type="WID">ba3babf78034016c8e949bab3b0cc0cd</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08318</wd:ID>
+        </wd:Program_ID>
+        <wd:Academic_Employee wd:Descriptor="E00864 Kiani - S0618">
+            <wd:ID wd:type="WID">ba3babf7803401df4fae1b27f90b6827</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00864</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00864</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Kiani - S0618</wd:name>
+            <wd:Emp_referenceID>E00864</wd:Emp_referenceID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+    </wd:Report_Entry>
+    <wd:Report_Entry>
+        <wd:referenceID>PG08319</wd:referenceID>
+        <wd:Program_ID wd:Descriptor="PG08319">
+            <wd:ID wd:type="WID">ba3babf7803401df7b91a7ab3b0cc5cd</wd:ID>
+            <wd:ID wd:type="Program_ID">PG08319</wd:ID>
+        </wd:Program_ID>
+        <wd:Academic_Employee wd:Descriptor="E00866 Kiehl - R0261">
+            <wd:ID wd:type="WID">ba3babf7803401d180c42327f90b6e27</wd:ID>
+            <wd:ID wd:type="Organization_Reference_ID">E00866</wd:ID>
+            <wd:ID wd:type="Custom_Organization_Reference_ID">E00866</wd:ID>
+        </wd:Academic_Employee>
+        <wd:Academic_Employee_group>
+            <wd:name>Kiehl - R0261</wd:name>
+            <wd:Emp_referenceID>E00866</wd:Emp_referenceID>
+            <wd:Inactive>0</wd:Inactive>
+        </wd:Academic_Employee_group>
+    </wd:Report_Entry>
+</wd:Report_Data>

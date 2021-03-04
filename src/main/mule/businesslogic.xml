@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:compatibility="http://www.mulesoft.org/schema/mule/compatibility" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd http://www.mulesoft.org/schema/mule/compatibility http://www.mulesoft.org/schema/mule/compatibility/current/mule-compatibility.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
+
+    <sub-flow name="add-header-row">
+        <try>
+            <validation:is-true expression="#[vars.header != 'null']" doc:name="Expression" />
+            <error-handler>
+                <on-error-propagate type="MULE:VALIDATION" logException="false">
+                    <set-variable variableName="filtered" value="#[true]" doc:id="97a51eb4-4696-4079-ba60-aed4d3ef39b0"/>
+                </on-error-propagate>
+            </error-handler>
+        </try>
+        <set-payload value="#[&quot;$(vars.header)$(mel:System.getProperty('line.separator'))&quot;]" doc:name="Set Payload">
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+            <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+        </set-payload>
+        <logger message="#[&quot;value=$(vars.header)$(mel:System.getProperty('line.separator'))$(vars.header0)$(mel:System.getProperty('line.separator'))&quot;]" level="INFO" doc:name="Logger">
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+            <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+        </logger>
+        <flow-ref name="upload-files" doc:name="upload-files" />
+    </sub-flow>
+
+    <sub-flow name="service-list">
+        <logger message="#['testing:' ++ payload]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.serviceList" />
+        <choice doc:name="Choice">
+            <when expression="#[attributes.queryParams.operation != null]">
+                <set-variable variableName="operation" value="#[attributes.queryParams.operation]" doc:name="Variable" />
+                <ee:transform doc:name="Transform Message" doc:id="d0f236c7-46c8-4276-a102-f54a2529cc83">
+					<ee:message>
+						<ee:set-payload><![CDATA[%dw 2.0
+//var fileHeader = {"Chart Of Accounts	Segment	Value	Description	Key Segment	Key Value	Add/Update/Delete Flag	Blank Override"}
+var testing = "file header"
+output application/json
+---
+{
+	"result" : if (vars.operation == "test") { "service" : "Custom"}
+	 			else "test"
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+				<flow-ref name="add-header-row" target="header" targetValue="#[payload.testing]"/>
+				<logger level="INFO" doc:name="Logger" doc:id="b828febf-ca62-4761-a160-daa4c1870309" message="#[payload.result]"/>
+				<choice doc:name="Choice">
+                    <when expression="#[vars.service == 'Custom']">
+                        <set-payload doc:name="Custom">
+                            <!--Migration ERROR: Error migrating migration-expression. Multiple return-argument are not supported-->
+                            <!--    For more information refer to:-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/set-payload-transformer-reference-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/transform-dataweave-xml-reference-->
+                            <return-argument expression="new String(&quot;Custom,&quot;#[flowVars.operation].[0])" />
+                            <return-argument expression="new String(&quot;Invalid,No_Operation&quot;)" />
+                        </set-payload>
+                    </when>
+                    <when expression="#[vars.service == 'Custom_CC']">
+                        <set-payload doc:name="Custom_CC">
+                            <!--Migration ERROR: Error migrating migration-expression. Multiple return-argument are not supported-->
+                            <!--    For more information refer to:-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/set-payload-transformer-reference-->
+                            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/transform-dataweave-xml-reference-->
+                            <return-argument expression="new String(&quot;Custom_CC,&quot;#[flowVars.operation].[0])" />
+                            <return-argument expression="new String(&quot;Invalid,No_Operation&quot;)" />
+                        </set-payload>
+                    </when>
+                    <otherwise>
+                        <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg=' Not a valid operation, no service name...'&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.serviceList" />
+                    </otherwise>
+                </choice>
+            </when>
+            <otherwise>
+                <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='No Input service operation, running for all service operations'&quot;]" level="INFO" doc:name="Run all operations" category="edu.asu.uto.fdmextract.jpm.serviceList" />
+                <flow-ref name="add-header-row" target="header" />
+                <set-payload ignoreBadInput="true" doc:name="Expression" value="#[payload]">
+                    <!--Migration ERROR: Error migrating migration-expression. Multiple return-argument are not supported-->
+                    <!--    For more information refer to:-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/set-payload-transformer-reference-->
+                    <!--        * https://docs.mulesoft.com/mule-runtime/4.3/transform-dataweave-xml-reference-->
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Grant_Hierarchy_Only&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Grant_Hierarchy_Only&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Project_With_Cost_Center&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Gift_With_Cost_Center&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Grant_With_Parent_Hierarchy&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Cost_Center_With_Program&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Spend_Categories&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Department_Reporting&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Department_Report_Roll&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_ASU_Audit_Reporting&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Employee_Project_With_Cost_Center&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Employee_Gift_With_Cost_Center&quot;)" />
+                    <return-argument expression="new String(&quot;Custom_CC,CRINT120_FDMExtract_JPM_Employee_Programs_With_CC&quot;)" />
+                    <return-argument expression="new String(&quot;Custom,CRINT120_FDMExtract_JPM_Employee&quot;)" />
+                </set-payload>
+            </otherwise>
+        </choice>
+        <compatibility:set-session-variable variableName="wdVersion" value="${wd.version}" doc:name="Session Variable">
+            <!--Migration WARN: Instead of using session variables in the flow, use variables.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#session_variables-->
+        </compatibility:set-session-variable>
+        <logger message="#[payload]" level="INFO" category="edu.asu.uto.fdmextract.jpm.serviceList" doc:name="Logger" />
+    </sub-flow>
+
+    <sub-flow name="call-workday-services">
+        <foreach doc:name="For Each" collection="#[message.payload]">
+            <logger message="#[payload]" level="INFO" category="edu.asu.uto.fdmextract.jpm.callService" doc:name="Logger" />
+            <choice doc:name="Choice">
+                <when expression="#[sessionVars.service == 'Custom']">
+                    <flow-ref name="get-wd-fdm-cust-wt-extract" doc:name="get-wd-fdm-cust-wt-extract" />
+                </when>
+                <when expression="#[sessionVars.service == 'Custom_CC']">
+                    <flow-ref name="get-wd-fdm-cust-wt-cc" doc:name="get-wd-fdm-cust-wt-cc" />
+                </when>
+                <otherwise>
+                    <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='Invalid Service Operation='$(sessionVars.operation)&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.callService" />
+                    <try>
+                        <validation:is-true expression="#[sessionVars.operation == 'Invalid_Operation']" doc:name="Expression" />
+                        <error-handler>
+                            <on-error-propagate type="MULE:VALIDATION" logException="false">
+                                <set-variable variableName="filtered" value="#[true]" />
+                            </on-error-propagate>
+                        </error-handler>
+                    </try>
+                </otherwise>
+            </choice>
+        </foreach>
+    </sub-flow>
+
+</mule>

@@ -1,0 +1,2191 @@
+{
+  "fdm_extract": {
+    "validCount": 22,
+    "data": [
+      {
+        "program": [
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0001"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0001"
+          },
+          {
+            "programId": "PG02665",
+            "cc_id": "CC0001"
+          },
+          {
+            "programId": "PG00010",
+            "cc_id": "CC0001"
+          },
+          {
+            "programId": "PG00009",
+            "cc_id": "CC0001"
+          },
+          {
+            "programId": "PG00007",
+            "cc_id": "CC0001"
+          },
+          {
+            "programId": "PG00006",
+            "cc_id": "CC0001"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG02560",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02558",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02552",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02551",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02549",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02545",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02541",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG00008",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02570",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02566",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02565",
+            "cc_id": "CC0002"
+          },
+          {
+            "programId": "PG02564",
+            "cc_id": "CC0002"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG03045",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03043",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG11280",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03042",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03041",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG11159",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03033",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03025",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03024",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03023",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03022",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03021",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03020",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03019",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03017",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03016",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03136",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03135",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03004",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03003",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03002",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03001",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03000",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03125",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG12668",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02995",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02994",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02993",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02992",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02991",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03118",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02990",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG10266",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03117",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02989",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03116",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG02988",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03115",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03114",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG10262",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03113",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG10261",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03112",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03111",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG09220",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03055",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03054",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03053",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03052",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03051",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03050",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03049",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03048",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG00001",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03047",
+            "cc_id": "CC0003"
+          },
+          {
+            "programId": "PG03046",
+            "cc_id": "CC0003"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG03044",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03076",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03104",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03070",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03069",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03096",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03095",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03094",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03018",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG03082",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG00003",
+            "cc_id": "CC0004"
+          },
+          {
+            "programId": "PG00002",
+            "cc_id": "CC0004"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG02917",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02916",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02880",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02908",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG11246",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02906",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02905",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG13128",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02900",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02896",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02895",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02894",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02893",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG00005",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG00004",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02889",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02921",
+            "cc_id": "CC0005"
+          },
+          {
+            "programId": "PG02919",
+            "cc_id": "CC0005"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG07805",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG00014",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG00013",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG07803",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG00012",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG00011",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG11414",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG00018",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG00017",
+            "cc_id": "CC0006"
+          },
+          {
+            "programId": "PG13067",
+            "cc_id": "CC0006"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG06518",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00061",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG06517",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG06516",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG06515",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG06514",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00182",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00179",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG10245",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00176",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00109",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PGK0153",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00168",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00167",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00102",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00035",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00034",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00033",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG12842",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00032",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00031",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00093",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00157",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00029",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00028",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00027",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00026",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00025",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00024",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00023",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG07764",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG09719",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00022",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00021",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00085",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00020",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00145",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00142",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00077",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG01229",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00193",
+            "cc_id": "CC0007"
+          },
+          {
+            "programId": "PG00129",
+            "cc_id": "CC0007"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG12006",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG08184",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG06511",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG06510",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG06509",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG08882",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG00115",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG00049",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG07918",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PGK0001",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PGK0327",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG12734",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG10766",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG07764",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG00150",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG08407",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG11185",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG10931",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG08713",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG08712",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG07730",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG10265",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG07810",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG07809",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG07808",
+            "cc_id": "CC0008"
+          },
+          {
+            "programId": "PG05122",
+            "cc_id": "CC0008"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PGK0206",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00094",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00188",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG01541",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00149",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG06504",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG07822",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG07818",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00043",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00171",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00042",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00138",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00169",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00070",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG07811",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG06522",
+            "cc_id": "CC0009"
+          },
+          {
+            "programId": "PG00194",
+            "cc_id": "CC0009"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG00174",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG06502",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG00125",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG11525",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG06501",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG00172",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG06500",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG07813",
+            "cc_id": "CC0010"
+          },
+          {
+            "programId": "PG00130",
+            "cc_id": "CC0010"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG00173",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG00076",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG00091",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG06508",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG00019",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG06507",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG06506",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG06505",
+            "cc_id": "CC0011"
+          },
+          {
+            "programId": "PG00192",
+            "cc_id": "CC0011"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG07870",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG07869",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00123",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG06512",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00053",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00181",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG10668",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00170",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00038",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00101",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG12199",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00036",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00162",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG07840",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00160",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG07839",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PGK0298",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PGK0263",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG07768",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG12871",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00154",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00089",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00152",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG07764",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG12828",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG12362",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG00196",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG07871",
+            "cc_id": "CC0012"
+          },
+          {
+            "programId": "PG10857",
+            "cc_id": "CC0012"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00095",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG13064",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PGK0029",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG07850",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG00041",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG00166",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG07845",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG09370",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG00131",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG09369",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG07841",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PG00161",
+            "cc_id": "CC0013"
+          },
+          {
+            "programId": "PGK0289",
+            "cc_id": "CC0013"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG12224",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PGK0204",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00060",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00059",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG12005",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00055",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00054",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG12192",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG12191",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG09083",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG07849",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00105",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG07848",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG07815",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG07843",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG00067",
+            "cc_id": "CC0014"
+          },
+          {
+            "programId": "PG07842",
+            "cc_id": "CC0014"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00191",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00189",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00187",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00122",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00058",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00186",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00057",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00120",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00118",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG11330",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG13052",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00117",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00113",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00048",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00111",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00044",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG11524",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG06499",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG06498",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00106",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG06497",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG09145",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07847",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG06496",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00104",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00103",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07846",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG06495",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG09142",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG06494",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00098",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00156",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00155",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PGK0137",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG10763",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00087",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG10638",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00083",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07821",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07820",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07819",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07817",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00137",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07816",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG07812",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00068",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG09368",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00066",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00065",
+            "cc_id": "CC0015"
+          },
+          {
+            "programId": "PG00064",
+            "cc_id": "CC0015"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0017"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00062",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00090",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG06513",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00121",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00151",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00119",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00148",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00147",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00178",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00112",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00079",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00078",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00045",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00040",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00136",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00198",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG07844",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00100",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG07875",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00099",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG00163",
+            "cc_id": "CC0018"
+          },
+          {
+            "programId": "PG12936",
+            "cc_id": "CC0018"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00142",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG00141",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG00140",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG00134",
+            "cc_id": "CC0019"
+          },
+          {
+            "programId": "PG00086",
+            "cc_id": "CC0019"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07868",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PGK0091",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG13102",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07859",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07858",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07857",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07856",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07855",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07854",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG06503",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07853",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07852",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07851",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00107",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PGK0299",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG04434",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00153",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG10638",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG04880",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00074",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG08972",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG04673",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG08971",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00071",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG05127",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00069",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00197",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG00133",
+            "cc_id": "CC0020"
+          },
+          {
+            "programId": "PG07872",
+            "cc_id": "CC0020"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00126",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG09725",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00092",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07867",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07866",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07865",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07864",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00185",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00088",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07863",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07862",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00082",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00081",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00144",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00047",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00046",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG08974",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG08973",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00135",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PGK0183",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00165",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG00164",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PGK0372",
+            "cc_id": "CC0021"
+          },
+          {
+            "programId": "PG07807",
+            "cc_id": "CC0021"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG00175",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG11416",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG00139",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG00039",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG00183",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG00084",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG07873",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG05267",
+            "cc_id": "CC0022"
+          },
+          {
+            "programId": "PG00096",
+            "cc_id": "CC0022"
+          }
+        ]
+      },
+      {
+        "program": [
+          {
+            "programId": "PG99997",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG99994",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00124",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00116",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00114",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG08879",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG08878",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00110",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00108",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG09128",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07764",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG04687",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00080",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PGK0033",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00075",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00072",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG08970",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG10623",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG09768",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG08969",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00195",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG06521",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG06520",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG06519",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00190",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00056",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00052",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00051",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00050",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG13058",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG10601",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07981",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG12151",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00037",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG06493",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG12843",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00159",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07838",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00158",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07837",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00030",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07836",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07835",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07834",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07831",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07830",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07829",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07828",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07827",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07826",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07825",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG07824",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PGK0224",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00132",
+            "cc_id": "CC0023"
+          },
+          {
+            "programId": "PG00128",
+            "cc_id": "CC0023"
+          }
+        ]
+      }
+    ]
+  }
+}

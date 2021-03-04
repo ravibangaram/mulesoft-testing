@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:compatibility="http://www.mulesoft.org/schema/mule/compatibility" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:mulexml="http://www.mulesoft.org/schema/mule/xml" xmlns:validation="http://www.mulesoft.org/schema/mule/validation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd http://www.mulesoft.org/schema/mule/validation http://www.mulesoft.org/schema/mule/validation/current/mule-validation.xsd http://www.mulesoft.org/schema/mule/compatibility http://www.mulesoft.org/schema/mule/compatibility/current/mule-compatibility.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd http://www.mulesoft.org/schema/mule/xml http://www.mulesoft.org/schema/mule/xml/current/mule-xml.xsd">
+
+    <sub-flow name="get-wd-fdm-cust-wt-extract">
+        <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) Calling serviceOperation=' $(sessionVars.operation)'&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.customRaaSCall" />
+        <compatibility:outbound-properties-to-var>
+            <!--Migration WARN: Instead of using outbound properties in the flow, move the expression that sets the property into the XML attribute (such as 'method') of the operation or listener that accepts the expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#outbound_properties-->
+        </compatibility:outbound-properties-to-var>
+        <http:request config-ref="HTTP_Request_Configuration" path="#[&quot;/ccx/service/customreport2/${wd.tenant}/${wd.user.custom}/$(sessionVars.operation)&quot;]" method="GET" doc:name="HTTP">
+            <http:headers>#[migration::HttpRequester::httpRequesterHeaders(vars)]</http:headers>
+        </http:request>
+        <compatibility:attributes-to-inbound-properties>
+            <!--Migration WARN: Expressions that query 'inboundProperties' from the message should instead query the message 'attributes'. Remove this component if there are no uses of 'inboundProperties' in expressions or components that rely on 'inboundProperties' (such as 'copy-properties').-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/intro-mule-message#inbound-properties-are-now-attributes-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#inbound_properties-->
+        </compatibility:attributes-to-inbound-properties>
+        <mulexml:dom-to-xml-transformer doc:name="DOM to XML" outputEncoding="UTF-8" />
+        <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) Data from Workday for service operation='$(sessionVars.operation)'&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.customRaaSCall" />
+        <choice doc:name="Choice">
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Department_Report_Roll']">
+                <set-payload value="#[payload]" mimeType="application/xml" />
+                <ee:transform doc:name="CR-Department-Report-Roll">
+                    <!--Migration ERROR: Custom types defined in Studio 6 are not migrated to Studio 7.-->
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "6",
+      "org_refId": $.ns0#Organization.*ns0#ID filter $.@ns0#"type" == "Custom_Organization_Reference_ID" map {
+        refId: $
+      },
+      id: $.ns0#id,
+      name: $.ns0#name,
+      status: 
+        if ($.ns0#Inactive == "0")
+          "N"
+        else
+          "Y"
+    } filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Department_Reporting']">
+                <ee:transform doc:name="CR-Department-Reproting">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "5",
+      "org_refId": $.ns0#"Custom_Worktag".*ns0#ID filter $.@ns0#"type" == "Custom_Worktag_1_ID" map {
+        refId: $
+      },
+      id: $.ns0#referenceID,
+      name: $.ns0#"Custom_Worktag".@ns0#Descriptor,
+      "type": $.ns0#TypeId.*ns0#ID filter $.@ns0#"type" == "Worktag_Type_ID" map {
+        typeId: $
+      },
+      status: 
+        if ($.ns0#"Custom_Worktag_is_Inactive" == "0")
+          "N"
+        else
+          "Y"
+    } filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_ASU_Audit_Reporting']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-ASU-Audit-Reporting">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "7",
+      "org_refId": $.ns0#"Custom_Worktag".*ns0#ID filter $.@ns0#"type" == "Custom_Worktag_2_ID" map {
+        refId: $
+      },
+      id: $.ns0#referenceID,
+      name: $.ns0#"Custom_Worktag".@ns0#Descriptor,
+      status: 
+        if ($.ns0#"Custom_Worktag_is_Inactive" == "0")
+          "N"
+        else
+          "Y"
+    } filter $.id != null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Employee']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-Employee">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "12",
+      "org_refId": {
+        refId: $.ns0#Organization.@ns0#Descriptor
+      },
+      id: $.ns0#name ++ " " ++ $.ns0#Id replace /([\,\''''\?\|])/ with "*" replace "&amp;" with "*",
+      name: $.ns0#name ++ " " ++ $.ns0#Id,
+      status: 
+        if ($.ns0#Inactive == "0")
+          "N"
+        else
+          "Y"
+    } filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Spend_Categories']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-Spend-Categories">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "4",
+      ref: $.ns0#TypeId.*ns0#ID filter $.@ns0#"type" == "Spend_Category_ID" map {
+        refId: $
+      },
+      id: $.ns0#referenceID,
+      name: $.ns0#"Spend_Category_Name",
+      status: 
+        if ($.ns0#Inactive == "0")
+          "N"
+        else
+          "Y"
+    } filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Cost_Center_With_Program']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-Program-CC">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  encoding="UTF-8"
+ns ns0 urn:com.workday/bsvc
+var prgLen = 0
+var len = 23
+---
+using (a = payload)
+  {
+    "fdm_extract": {
+      validCount: sizeOf((a.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+      data: a.ns0#"Report_Data".*ns0#"Report_Entry" map using (refIdCC = $.ns0#referenceID, wdIdCC = $.ns0#code, nameCC = $.ns0#name, prgName = $.ns0#"Allowed_Related_Worktags_by_Type".@Descriptor, ccHie = $.ns0#"Included_by_Organizations".*ns0#ID[1], status = $.ns0#Inactive)
+        {
+          program: flatten(({
+            "program_ref": $.*ns0#"Allowed_Related_Worktags_by_Type"
+          })) filter (not $ == null) map {
+            segment: "3",
+            programId: $.*ns0#ID[1],
+            "cc_refId": refIdCC,
+            "cc_id": wdIdCC,
+            "cc_name": nameCC,
+            "prg_name": $.@Descriptor[[
+              1 + (sizeOf($.*ns0#ID[1]))
+            ][0] to -1],
+            keySegment: "2",
+            check: upper(($.@Descriptor)) contains upper(("(inactive)")),
+            keyValue: ccHie
+          } filter not $.check == true
+        }
+    }
+  }]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Grant_Hierarchy_Only']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-Grants-Hie-Segment1">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "1",
+      id: $.ns0#"Parent_Reference_ID_Value".*ns0#ID[1],
+      name: $.ns0#"Parent_Reference_ID_Value".@Descriptor[[
+        1 + (sizeOf($.ns0#"Parent_Reference_ID_Value".*ns0#ID[1]))
+      ][0] to -1],
+      keySegment: "",
+      keyValue: ""
+    } distinctBy $ filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                    <ee:variables>
+                        <ee:set-variable variableName="grant_seg2"><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "2",
+      id: $.ns0#referenceID,
+      name: $.ns0#"Grant_Hierarchy_Name",
+      keySegment: $.ns0#"Parent_Reference_ID_Value".*ns0#ID[1]
+    }
+  }
+}]]></ee:set-variable>
+                    </ee:variables>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_WorkOrder']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-WorkOrder">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "8",
+      ref: $.ns0#"Custom_Worktag".*ns0#ID filter $.@ns0#"type" == "Custom_Worktag_5_ID" map {
+        refId: $
+      },
+      id: $.ns0#referenceID,
+      name: $.ns0#"Custom_Worktag".@Descriptor,
+      status: 
+        if ($.ns0#"Custom_Worktag_is_Inactive" == "0")
+          "N"
+        else
+          "Y"
+    } filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="CR-Cost-Center-Hie-Segment2">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "2",
+      id: $.ns0#"Included_by_Organization".*ns0#ID[2],
+      name: $.ns0#"Included_by_Organization".@ns0#Descriptor[1 + sizeOf($.ns0#"Included_by_Organization".*ns0#ID[2]) to -1],
+      keySegment: "1",
+      keyValue: $.ns0#"Included_by_Organizations".ns0#"Superior_Organization".*ns0#ID[2]
+    } distinctBy $ filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_Employee1']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="Non-Related Employee">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/json  
+ns ns0 urn:com.workday/bsvc
+---
+{
+  "fdm_extract": {
+    validCount: sizeOf((payload.ns0#"Report_Data".*ns0#"Report_Entry" map {})),
+    data: payload.ns0#"Report_Data".*ns0#"Report_Entry" map {
+      segment: "12",
+      "org_refId": {
+        refId: $.ns0#name ++ " " ++ $.ns0#Id
+      },
+      id: $.ns0#name ++ " " ++ $.ns0#Id,
+      name: $.ns0#name ++ " " ++ $.ns0#Id,
+      status: 
+        if ($.ns0#Inactive == "0")
+          "N"
+        else
+          "Y"
+    } filter not $.id == null
+  }
+}]]></ee:set-payload>
+                    </ee:message>
+                </ee:transform>
+            </when>
+            <otherwise>
+                <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='NOT a valid service='$(sessionVars.operation), payload length :$(vars.compatibility_inboundProperties.'content-length'), and Content type is $(vars.compatibility_inboundProperties.'content-type')&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.customRaaSCall" />
+                <try>
+                    <validation:is-true expression="#[sessionVars.operation == 'No_Operation']" doc:name="Expression" />
+                    <error-handler>
+                        <on-error-propagate type="MULE:VALIDATION" logException="false">
+                            <set-variable variableName="filtered" value="#[true]" />
+                        </on-error-propagate>
+                    </error-handler>
+                </try>
+            </otherwise>
+        </choice>
+        <choice doc:name="Choice">
+            <when expression="#[sessionVars.operation != 'CRINT120_FDMExtract_JPM_Cost_Center_With_Program']">
+                <set-payload value="#[payload]" mimeType="application/json" />
+                <ee:transform doc:name="Transform Message">
+                    <!--Migration ERROR: Custom types defined in Studio 6 are not migrated to Studio 7.-->
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/csv  separator="\t", quoteValues=false, header=false, lineSeparator="\n"
+---
+  ((payload."fdm_extract".data default []) map {
+    chartOfAccounts: "FMS COA",
+    segment: $.segment,
+    value: 
+      if ($.id == null)
+        " "
+      else
+        $.id,
+    description: 
+      if ($.name == null)
+        " "
+      else
+        $.name replace /([\,\?\''''\|])/ with "*",
+    keySegment: 
+      if ($.keySegment == null)
+        " "
+      else
+        $.keySegment,
+    keyValue: 
+      if ($.keyValue == null)
+        " "
+      else
+        $.keyValue,
+    addUpdateDelete: "Add",
+    blankOverride: "0"
+  })]]></ee:set-payload>
+                    </ee:message>
+                    <ee:variables>
+                        <ee:set-variable variableName="payloadRows"><![CDATA[%dw 2.0
+output application/json  
+---
+{
+  validCount: sizeOf((flatten(payload."fdm_extract".data) map {}))
+}]]></ee:set-variable>
+                    </ee:variables>
+                </ee:transform>
+            </when>
+            <when expression="#[sessionVars.operation == 'CRINT120_FDMExtract_JPM_Cost_Center_With_Program']">
+                <set-payload value="#[payload]" mimeType="null" />
+                <ee:transform doc:name="Transform Message">
+                    <ee:message>
+                        <ee:set-payload><![CDATA[%dw 2.0
+output application/csv  separator="\t", quoteValues=false, header=false, lineSeparator="\n"
+---
+((flatten(payload."fdm_extract".data.*program) default []) map {
+  chartOfAccounts: "FMS COA",
+  segment: $.segment,
+  value: $."cc_id" ++ "~" ++ $.programId,
+  description: (if ((sizeOf($."cc_name")) > 23)
+    $."cc_name"[0 to 23]
+  else
+    $."cc_name") default "" ++ "~" ++ (if ((sizeOf($."prg_name")) > 23)
+    $."prg_name"[0 to 23]
+  else
+    $."prg_name") default "" replace /([\,\''''\?\|])/ with "*" replace "&amp;" with "*",
+  keySegment: $.keySegment,
+  keyValue: 
+    if ($.keyValue == null)
+      " "
+    else
+      $.keyValue,
+  addUpdateDelete: "Add",
+  blankOverride: "0"
+})]]></ee:set-payload>
+                    </ee:message>
+                    <ee:variables>
+                        <ee:set-variable variableName="payloadRows"><![CDATA[%dw 2.0
+output application/json  
+---
+{
+  validCount: sizeOf((flatten(payload."fdm_extract".data.program) map {}))
+}]]></ee:set-variable>
+                    </ee:variables>
+                </ee:transform>
+            </when>
+            <otherwise>
+                <logger message="#[&quot;batchInstanceID=$(vars['batchJobInstanceId']) msg='NOT a valid service operation ='$(sessionVars.operation)&quot;]" level="INFO" doc:name="Logger" category="edu.asu.uto.fdmextract.jpm.customRaaSCall" />
+                <try>
+                    <validation:is-true expression="#[sessionVars.operation == 'No_Operation']" doc:name="Expression" />
+                    <error-handler>
+                        <on-error-propagate type="MULE:VALIDATION" logException="false">
+                            <set-variable variableName="filtered" value="#[true]" />
+                        </on-error-propagate>
+                    </error-handler>
+                </try>
+            </otherwise>
+        </choice>
+        <compatibility:set-session-variable variableName="worktagRowCountOS" value="#[mel:payload.split(&quot;\n&quot;).length]" doc:name="Session Variable">
+            <!--Migration WARN: Instead of using session variables in the flow, use variables.-->
+            <!--    For more information refer to:-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#session_variables-->
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+            <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+        </compatibility:set-session-variable>
+        <logger message="#[&quot;count from CSV: $(mel:payload.split('\n').length)&quot;]" level="INFO" doc:name="Logger">
+            <!--Migration WARN: The MEL expression could not be migrated to a DataWeave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+            <!--        * https://github.com/mulesoft/mule-migration-assistant/blob/master/docs/user-docs/migration-tool-post-mig.adoc#mel_expressions-->
+            <!--        * https://blogs.mulesoft.com/dev/mule-dev/why-dataweave-main-expression-language-mule-4-->
+            <!--Migration WARN: The MEL expression contains a method invocation that could not be migrated to a Dataweave expression.-->
+            <!--    For more information refer to:-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/dataweave-cookbook-java-methods-->
+            <!--        * https://docs.mulesoft.com/mule-runtime/4.3/migration-mel-->
+        </logger>
+        <flow-ref name="upload-files" doc:name="upload-files" />
+    </sub-flow>
+
+</mule>

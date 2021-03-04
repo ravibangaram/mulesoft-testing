@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Mule Migratiol Assistant Report</title>
+    <link rel="stylesheet" type="text/css" href="../assets/styles/mulesoft-styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles/tsorter.css">
+</head>
+<body>
+    <div class="mulesoft-topbar">
+        <div class="mulesoft-appbar">
+            <div class="muleicon muleicon-logo"></div>
+            <div class="anypoint-brand">Mule Migration Assistant 1.0.0</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 sidemenu">
+        <ul class="sidemenu-back">
+            <li><a href="../summary.html">Summary</a></li>
+        </ul>
+    </div>
+    <div class="col-md-8">
+        <h2 class="text-bold">Issues found on: <span class="text-italic text-normal">businesslogic.xml</span></h2>
+        <h4 class="text-bold">Description: <span class="text-italic text-normal">Error migrating migration-expression. Multiple return-argument are not supported</span></h4>
+        <h4 class="text-bold">Documentation: </h4>
+            <h4><a href="https://docs.mulesoft.com/mule-runtime/4.3/set-payload-transformer-reference">https://docs.mulesoft.com/mule-runtime/4.3/set-payload-transformer-reference</a></h4>
+            <h4><a href="https://docs.mulesoft.com/mule-runtime/4.3/transform-dataweave-xml-reference">https://docs.mulesoft.com/mule-runtime/4.3/transform-dataweave-xml-reference</a></h4>
+        <hr>
+        <br>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">109</span>&nbsp;
+                    Column: <span class="text-italic text-normal">74</span>
+                </h4>
+                <br>
+                <pre>&lt;set-payload ignoreBadInput=&quot;true&quot; doc:name=&quot;Expression&quot;&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Grant_Hierarchy_Only&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Cost_Center_With_Parent_Hierarchy&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Grant_Hierarchy_Only&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Project_With_Cost_Center&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Gift_With_Cost_Center&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Grant_With_Parent_Hierarchy&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Cost_Center_With_Program&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Spend_Categories&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Department_Reporting&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Department_Report_Roll&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_ASU_Audit_Reporting&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Employee_Project_With_Cost_Center&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Employee_Gift_With_Cost_Center&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,CRINT120_FDMExtract_JPM_Employee_Programs_With_CC&amp;quot;)&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,CRINT120_FDMExtract_JPM_Employee&amp;quot;)&quot; /&gt;
+&lt;/set-payload&gt;</pre>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">73</span>&nbsp;
+                    Column: <span class="text-italic text-normal">56</span>
+                </h4>
+                <br>
+                <pre>&lt;set-payload doc:name=&quot;Custom&quot;&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom,&amp;quot;#[flowVars.operation].[0])&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Invalid,No_Operation&amp;quot;)&quot; /&gt;
+&lt;/set-payload&gt;</pre>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <h4 class="text-bold">
+                    Line: <span class="text-italic text-normal">83</span>&nbsp;
+                    Column: <span class="text-italic text-normal">59</span>
+                </h4>
+                <br>
+                <pre>&lt;set-payload doc:name=&quot;Custom_CC&quot;&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Custom_CC,&amp;quot;#[flowVars.operation].[0])&quot; /&gt;
+    &lt;return-argument expression=&quot;new String(&amp;quot;Invalid,No_Operation&amp;quot;)&quot; /&gt;
+&lt;/set-payload&gt;</pre>
+                <hr>
+            </div>
+    </div>
+</body>
+</html>
